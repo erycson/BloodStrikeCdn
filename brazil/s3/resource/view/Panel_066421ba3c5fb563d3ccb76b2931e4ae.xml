@@ -1,0 +1,37 @@
+<config>
+  <TGPVipView>
+    <MovieClip name="bg" definition="PanelAssets.TGP_BG" properties="{'x':0,'y':0}"/>
+    <UIButton name="diamondGiftBtn" properties="{'x':391,'y':117,'width':89,'height':30,'skins':'PanelAssets.GetYellowVipGift_btn','textColor':'0xffffff'}"/>
+    <UIButton name="levelGiftBtn" properties="{'x':140,'y':426,'width':89,'height':30,'skins':'PanelAssets.GetYellowVipGift_btn','textColor':'0xffffff'}"/>
+    <UIButton name="newGiftBtn" properties="{'x':496,'y':362,'width':89,'height':30,'skins':'PanelAssets.GetYellowVipGift_btn','textColor':'0xffffff'}"/>
+    <UIButton name="closeBtn" properties="{'x':722,'y':16.45,'width':14,'height':14,'skins':'ResourceAssets.close_btn','textColor':'0xffffff'}"/>
+  </TGPVipView>
+  <ShowTreasureBox>
+    <MovieClip name="bg" definition="PanelAssets.OpenBoxBg" properties="{'x':0,'y':47.45,'width':940,'height':214}"/>
+    <UIContainer name="multipleTreasure" properties="{'x':0,'y':47.45}">
+      <UIButton name="sureBtn" properties="{'x':504.3,'y':196.1,'width':246,'height':50,'fontSize':20,'skins':'ResourceAssets.blue_layer_big','textColor':'0xEEEEEE','zLanID':'WORD_146'}"/>
+      <UIButton name="multiBtn" properties="{'x':191.3,'y':196.1,'width':246,'height':50,'fontSize':20,'skins':'ResourceAssets.blue_layer_big','textColor':'0xEEEEEE','zLanID':'WORD_2336'}"/>
+      <UILabel properties="{'x':264.3,'y':167.5,'width':415,'height':25,'textAlign':'center','textColor':'0xFFFF00','zLanID':'WORD_2337'}"/>
+      <UIContainer name="itemContainer" properties="{'x':205,'y':66}"/>
+    </UIContainer>
+    <UIContainer name="sigleTreasure" properties="{'x':0,'y':47.45}">
+      <Sprite definition="PanelAssets.WeaponBg" properties="{'x':368,'y':69,'width':181,'height':60}"/>
+      <UILabel name="tipText" properties="{'x':261.3,'y':167.5,'width':415,'height':25,'textAlign':'center','textColor':'0xFFFF00','zLanID':'WORD_2337'}"/>
+      <UIButton name="sureBtn" properties="{'x':504.3,'y':196.1,'width':246,'height':50,'fontSize':20,'skins':'ResourceAssets.blue_layer_big','textColor':'0xEEEEEE','zLanID':'WORD_146'}"/>
+      <UIButton name="onceAgainBtn" properties="{'x':191.3,'y':196.1,'width':246,'height':50,'fontSize':20,'skins':'ResourceAssets.blue_layer_big','textColor':'0xEEEEEE','zLanID':'WORD_2343'}"/>
+      <UIAssetsLoader name="itemIcon" properties="{'x':371.3,'y':72.35}"/>
+      <UILabel name="nameText" properties="{'x':369.3,'y':104,'width':113,'height':21,'textColor':'0xffffff'}"/>
+      <UILabel name="timeText" properties="{'x':484.3,'y':104,'width':63,'height':21,'textAlign':'right','textColor':'0x00ccff'}"/>
+      <UILabel name="desText" properties="{'x':328.3,'y':133,'width':257,'height':25,'textAlign':'center','textColor':'0x00ccff'}"/>
+      <UIAsset name="neverExpiredIcon" properties="{'x':504.3,'y':104.65,'width':42,'height':18,'assetName':'ResourceAssets.never_expired_icon'}"/>
+    </UIContainer>
+  </ShowTreasureBox>
+  <ClientGiftView>
+    <MovieClip name="bg" definition="PanelAssets.WEIDUAN_BG" properties="{'x':0,'y':0,'width':757,'height':490}"/>
+    <UIButton name="downloadBtn" properties="{'x':467,'y':57.45,'width':113,'height':31,'skins':'PanelAssets.DownloadBtn','textColor':'0xffffff'}"/>
+    <UIButton name="autoLaunchBtn" properties="{'x':630,'y':278.4,'width':89,'height':30,'skins':'PanelAssets.GreenBtn','textColor':'0xffffff'}"/>
+    <UIButton name="loginBtn" properties="{'x':630,'y':145.45,'width':89,'height':30,'skins':'PanelAssets.GreenBtn','textColor':'0xffffff'}"/>
+    <UIButton name="autoLaunchWithStartupBtn" properties="{'x':630,'y':407.4,'width':89,'height':30,'skins':'PanelAssets.GreenBtn','textColor':'0xffffff'}"/>
+    <UIButton name="closeBtn" properties="{'x':722,'y':16,'width':14,'height':14,'skins':'ResourceAssets.close_btn','textColor':'0xffffff'}"/>
+  </ClientGiftView>
+</config>

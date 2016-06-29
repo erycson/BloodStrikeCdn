@@ -1,0 +1,26 @@
+<config>
+  <MovieClip name="bg" definition="ChatAssets.bg_chat" properties="{'x':0,'y':0,'width':655,'height':186}"/>
+  <UIComponent name="bugleBar" properties="{'x':563,'y':160}"/>
+  <MovieClip name="chatArea" definition="lobby.view.chat.chatcomponets.ClassicChatMsgArea" properties="{'x':76,'y':44}"/>
+  <MovieClip name="chatAreaRoom" definition="lobby.view.chat.chatcomponets.ClassicChatMsgArea" properties="{'x':76,'y':44}"/>
+  <MovieClip name="chatAreaTeam" definition="lobby.view.chat.chatcomponets.ClassicChatMsgArea" properties="{'x':76,'y':44}"/>
+  <MovieClip name="chatAreaWhisper" definition="lobby.view.chat.chatcomponets.ClassicChatMsgArea" properties="{'x':76,'y':44}"/>
+  <UIComponent name="channelBtnBar" properties="{'x':7,'y':42}"/>
+  <UIButton name="sendBtn" properties="{'x':490,'y':160,'width':71,'height':23,'skins':'ChatAssets.btn_send','textColor':'0xffffff'}"/>
+  <UITextInput name="chatInput2" properties="{'x':186.35,'y':156.5,'width':100,'height':21,'textColor':'0xffffff'}"/>
+  <MovieClip name="chatInput" definition="lobby.view.chat.chatcomponets.ChatTextInput" properties="{'x':242.95,'y':192}"/>
+  <MovieClip name="chatAreaMatch" definition="lobby.view.chat.chatcomponets.ClassicChatMsgArea" properties="{'x':76,'y':44}"/>
+  <ChannelBtnBar>
+    <UIButton name="allBtn" properties="{'x':0,'y':0,'width':63,'height':25,'skins':'ChatAssets.btn_tab_','textColor':'0xffffff','toggle':true,'zLanID':'WORD_420'}"/>
+    <UIButton name="teamBtn" properties="{'x':0,'y':53,'width':63,'height':25,'skins':'ChatAssets.btn_tab_','textColor':'0xffffff','toggle':true,'zLanID':'WORD_129'}"/>
+    <UIButton name="whisperBtn" properties="{'x':0,'y':80,'width':63,'height':25,'skins':'ChatAssets.btn_tab_','textColor':'0xffffff','toggle':true,'zLanID':'WORD_15'}"/>
+    <UIButton name="matchBtn" properties="{'x':0.65,'y':26,'width':63,'height':25,'skins':'ChatAssets.btn_tab_','textColor':'0xffffff','toggle':true,'zLanID':'WORD_2500'}"/>
+    <UIButton name="roomBtn" properties="{'x':0,'y':27,'width':63,'height':25,'skins':'ChatAssets.btn_tab_','textColor':'0xffffff','toggle':true,'zLanID':'WORD_127'}"/>
+  </ChannelBtnBar>
+  <BugleSendBar>
+    <UILabel name="smallCntLb" properties="{'x':24,'y':4,'width':21,'height':17,'autoSize':'center','textColor':'0xffffff'}"/>
+    <MovieClip name="bigIcon" definition="ChatAssets.big_bugle" properties="{'x':45,'y':0,'width':24,'height':24}"/>
+    <UILabel name="bigCntLb" properties="{'x':69,'y':4,'width':21,'height':17,'autoSize':'center','textColor':'0xffffff'}"/>
+    <MovieClip name="smallIcon" definition="ChatAssets.small_bugle" properties="{'x':0,'y':0,'width':24,'height':24}"/>
+  </BugleSendBar>
+</config>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!-- 服务器类型 1:正式服   2：比赛服-->
+	<serverType>1</serverType>
+	<!-- 目前开放配置 1:商城赠送功能 -->
+	<funcClosed>1</funcClosed>
+	<district>
+		<id>14</id>
+		<name>Blood Strike</name>
+		<shortName>BS</shortName>
+	</district>
+
+	<loginURL>https://apps.facebook.com/blood-strike</loginURL>
+	
+	<serverIp>127.0.0.1</serverIp>
+	<serverPort>4000</serverPort>
+	
+	<serverLimit>1000</serverLimit>
+	
+	<rechargeURL><![CDATA[]]></rechargeURL>
+	
+	<rechargeJS>BScallflashfunc</rechargeJS>
+	
+	<shareJS></shareJS>
+	
+	<isTestServer>false</isTestServer>
+	
+	<defaultRoomName>生死狙击GO!GO~!</defaultRoomName>
+	
+	<plateformStatistic id="1" name="YY-API-FlAG"  enable="0"/>
+	
+	<reportURL>http://127.0.0.1/web/log_error.php</reportURL>
+	
+	<antiAddictionURL>https://apps.facebook.com/blood-strike</antiAddictionURL>
+	
+	<externalURL>http://127.0.0.1/web/log_plugin.php</externalURL>
+	
+	<eventLogURL>http://127.0.0.1/web/log_event.php</eventLogURL>
+	
+	<isShowLog>true</isShowLog>
+	
+	<direct_proxy_isp></direct_proxy_isp>
+	
+	<proxy></proxy>
+	
+	<statURL></statURL>
+	
+	<logTrace>45</logTrace>
+	
+	<roomProxys></roomProxys>
+</root>

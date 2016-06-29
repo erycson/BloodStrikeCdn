@@ -1,0 +1,73 @@
+<config>
+  <MovieClip name="bg" definition="ResourceAssets.game_bg" properties="{'x':0,'y':0,'width':1000,'height':650}"/>
+  <MovieClip name="competitionModeBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':356,'y':26}"/>
+  <MovieClip name="matchModeBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':476,'y':26}"/>
+  <MovieClip name="luckyDrawBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':595,'y':26}"/>
+  <MovieClip name="teamSystemBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':726,'y':22}"/>
+  <MovieClip name="storageBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':844,'y':22}"/>
+  <MovieClip name="mallBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':902,'y':22}"/>
+  <MovieClip name="rankBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':785,'y':22}"/>
+  <MovieClip name="backGameBtn" definition="ResourceAssets.button_backGame" properties="{'x':348,'y':8,'width':126,'height':29}"/>
+  <MovieClip name="_viewContainer" definition="flash.display.Sprite" properties="{'x':0,'y':0}"/>
+  <MovieClip name="sbag" definition="lobby.view.bag.SmallBagView" properties="{'x':62,'y':446}"/>
+  <MovieClip name="playerProtrait" definition="lobby.view.main.SubNewPlayerProtrait" properties="{'x':0,'y':0}"/>
+  <UILabel name="titleLB" properties="{'x':329,'y':70,'width':400,'height':20,'font':'微软雅黑','fontLanID':'WORD_20','textColor':'0xb4b4b4'}"/>
+  <MovieClip name="blueVipBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':25,'y':184}"/>
+  <MovieClip name="yellowVipBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':25,'y':184}"/>
+  <MovieClip name="newVersionBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':26,'y':244}"/>
+  <MovieClip name="vip3366Btn" definition="lobby.view.components.styled.StyledButton" properties="{'x':25,'y':354.95}"/>
+  <MovieClip name="singInBtn" definition="lobby.view.weaponStorage.component.ImageButton" properties="{'x':26,'y':304}"/>
+  <WeaponUnlockIcon name="weaponUnlockIcon" properties="{'x':230,'y':100}"/>
+  <UIButton name="collectBtn" properties="{'x':228,'y':190,'width':80,'height':40,'font':'WORD_19','fontLanID':'WORD_19','skins':'CollectAssets.collect','textColor':'0xffffff'}"/>
+  <MovieClip name="currencyBar" definition="lobby.view.shop.CurrencyBar" properties="{'x':340,'y':72}"/>
+  <MovieClip name="recommendStuffView" definition="lobby.view.main.decoration.SubNewRecommendStuffView" properties="{'x':0,'y':0}"/>
+  <MovieClip name="bottomBar" definition="lobby.view.main.bottombar.SubNewBottomBar" properties="{'x':0,'y':0}"/>
+  <MovieClip name="_popContainer" definition="flash.display.Sprite" properties="{'x':0,'y':0}"/>
+  <MovieClip name="inviteContainer" definition="flash.display.Sprite" properties="{'x':0,'y':0}"/>
+  <UIButton name="tgpBtn" properties="{'x':179.35,'y':98,'width':45,'height':45,'skins':'ResourceAssets.tgp_btn_','textColor':'0xffffff'}"/>
+  <UIButton name="clientBtn" properties="{'x':131.35,'y':98,'width':45,'height':45,'skins':'ResourceAssets.weiduan_btn_','textColor':'0xffffff'}"/>
+  <NewPlayerProtrait>
+    <MovieClip name="iconContainer" definition="flash.display.Sprite" properties="{'x':35,'y':32}"/>
+    <MovieClip name="expBar" definition="lobby.view.components.styled.StyledProgress" properties="{'x':71,'y':68}"/>
+    <MovieClip name="yellowYearVipIcon" definition="ResourceAssets.yellowYearVipIcon" properties="{'x':192,'y':25,'width':18,'height':19}"/>
+    <MovieClip name="yellowVipIcon" definition="ResourceAssets.yellowVipIcon" properties="{'x':168,'y':25,'width':25,'height':19}"/>
+    <MovieClip name="rankIconCtn" definition="flash.display.Sprite" properties="{'x':238,'y':19}"/>
+    <MovieClip name="charInfoBtn" definition="lobby.view.components.button.BlueButton" properties="{'x':164,'y':46}"/>
+    <MovieClip name="rankIconOverBg" definition="ResourceAssets.gerenzhanji_item_over" properties="{'x':258.35,'y':170,'width':80,'height':60}"/>
+    <MovieClip name="blueVipIcon" definition="ResourceAssets.blueVipIcon" properties="{'x':168,'y':26,'width':25,'height':19}"/>
+    <MovieClip name="texts" definition="ResourceAssets.player_potrait_texts2" properties="{'x':35,'y':14,'width':276.95,'height':65.4}"/>
+    <MovieClip name="mouseOverBg" definition="ResourceAssets.char_mouseOver_bg" properties="{'x':21,'y':22,'width':293,'height':64}"/>
+  </NewPlayerProtrait>
+  <NewRecommendStuffView>
+    <MovieClip name="magazineCtn" definition="flash.display.Sprite" properties="{'x':31,'y':446}"/>
+    <MovieClip name="stuffCell1" definition="lobby.view.main.decoration.StuffCell" properties="{'x':60,'y':347}"/>
+    <MovieClip name="stuffCell2" definition="lobby.view.main.decoration.StuffCell" properties="{'x':60,'y':389}"/>
+    <MovieClip name="stuffCell3" definition="lobby.view.main.decoration.StuffCell" properties="{'x':253,'y':255}"/>
+    <MovieClip name="stuffCell4" definition="lobby.view.main.decoration.StuffCell" properties="{'x':253,'y':297}"/>
+    <MovieClip name="stuffCell5" definition="lobby.view.main.decoration.StuffCell" properties="{'x':253,'y':345}"/>
+    <MovieClip name="stuffCell6" definition="lobby.view.main.decoration.StuffCell" properties="{'x':253,'y':387}"/>
+    <MovieClip name="stuffCell7" definition="lobby.view.main.decoration.StuffCell" properties="{'x':60,'y':255}"/>
+  </NewRecommendStuffView>
+  <NewSwitchRoleList>
+    <MovieClip name="closeBg" definition="ResourceAssets.role_list_bg1" properties="{'x':0,'y':0,'width':92,'height':75}"/>
+    <MovieClip name="openBg" definition="ResourceAssets.role_list_bg2" properties="{'x':0,'y':0,'width':92,'height':206}"/>
+    <MovieClip name="curRoleContainer" definition="flash.display.Sprite" properties="{'x':8,'y':8.5}"/>
+    <MovieClip name="openBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':4.5,'y':57}"/>
+    <MovieClip name="closeBtn" definition="lobby.view.components.styled.StyledButton" properties="{'x':4.5,'y':190}"/>
+    <MovieClip name="curShowRoleItem" definition="lobby.view.main.rolelist.SubNewRoleItem" properties="{'x':7.5,'y':8.5}"/>
+  </NewSwitchRoleList>
+  <NewRoleItem>
+    <MovieClip name="group1Bg" definition="ResourceAssets.role_list_t_layer" properties="{'x':0,'y':0,'width':75,'height':41}"/>
+    <MovieClip name="group2Bg" definition="ResourceAssets.role_list_ct_layer" properties="{'x':0,'y':0,'width':75,'height':41}"/>
+    <MovieClip name="overBg" definition="ResourceAssets.role_list_over" properties="{'x':0,'y':0,'width':75,'height':41}"/>
+    <MovieClip name="group1Icon" definition="ResourceAssets.t_logo" properties="{'x':4.5,'y':4,'width':27,'height':25.1}"/>
+    <MovieClip name="group2Icon" definition="ResourceAssets.ct_logo" properties="{'x':4.5,'y':4,'width':27,'height':25.1}"/>
+    <MovieClip name="roleIcon" definition="lobby.model.AssetsLoader" properties="{'x':0,'y':0}"/>
+  </NewRoleItem>
+  <NewBottomBar>
+    <UIAsset name="bottomLayer" properties="{'x':29,'y':599.95,'width':284,'height':28,'assetName':'ComponentAssets.blue_bg'}"/>
+    <MovieClip name="msgbtn" definition="lobby.view.components.button.MsgNumButton" properties="{'x':219,'y':600}"/>
+    <UIButton name="btn1" properties="{'x':30,'y':600,'width':90,'height':26,'font':'WORD_19','fontLanID':'WORD_19','skins':'PanelAssets.FriendBtn','textColor':'0x99CCCC'}"/>
+    <UIButton name="btn2" properties="{'x':125,'y':600,'width':90,'height':26,'font':'WORD_19','fontLanID':'WORD_19','skins':'PanelAssets.TeamMsgBtn','textColor':'0x99CCCC'}"/>
+  </NewBottomBar>
+</config>

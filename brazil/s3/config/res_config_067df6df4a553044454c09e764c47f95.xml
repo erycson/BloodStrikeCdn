@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<gameres>
+		<!-- 游戏信息 -->
+		<mapConfigXML url="config/map_262ee11c5fe35a3fc59ad6693ed2551c.xml" type="XML" version="1" md5="262ee11c5fe35a3fc59ad6693ed2551c" size="36768"/>
+		<mapSortXML url="config/map_sort_a88b7a6fe5fdf0f1d8349c41c77d0173.xml" type="XML" version="1" md5="a88b7a6fe5fdf0f1d8349c41c77d0173" size="15220"/>
+		<gameModeXML url="config/gamemode_b67e3186fbb92279f80d19390bedc695.xml" type="XML" version="1" md5="b67e3186fbb92279f80d19390bedc695" size="15986"/>
+		<I18N url="config/i18n_a8650e17de48acd2b54fdcf9034aa3ee.txt" type="ZIP" version="1" md5="a8650e17de48acd2b54fdcf9034aa3ee" size="71463"/>
+		<dirtyWords url="config/dirtyWords_7aad5cb93467675055e0e3a5f9c40cb2.zip" type="ZIP" version="1" md5="7aad5cb93467675055e0e3a5f9c40cb2" size="28240"/>
+		
+		<mailView url="resource/view/MailView_d0c06fb0fb4dfabf00132511b0ae359b.xml" type="XML" version="1" md5="d0c06fb0fb4dfabf00132511b0ae359b" size="4970"/>
+		<charInfoView url="resource/view/CharDataView_6a535105ff1902f4ccfa7a64882e347d.xml" type="XML" version="1" md5="6a535105ff1902f4ccfa7a64882e347d" size="17995"/>
+		<channelView url="resource/view/ChannelView_9fdccf9fe35d11e2af047038f9557f38.xml" type="XML" version="1" md5="9fdccf9fe35d11e2af047038f9557f38" size="4140"/>
+		<matchView url="resource/view/MatchView_1de23250898aa6afd9a73580336eaee9.xml" type="XML" version="1" md5="1de23250898aa6afd9a73580336eaee9" size="13114"/>		
+		<newRankView url="resource/view/NewRankView_4f441cab9a80ff66ce18f87b86fdcf4e.xml" type="XML" version="1" md5="4f441cab9a80ff66ce18f87b86fdcf4e" size="9928"/>	
+		<weaponUnlockView url="resource/view/NewWeaponUnlockView_4ef82e70303cd95c091fd580e1172fae.xml" type="XML" version="1" md5="4ef82e70303cd95c091fd580e1172fae" size="2373"/>
+		<weaponStorage2View url="resource/view/WeaponStorage2View_e0c9acfc4b35bc5350df765f0b14a70c.xml" type="XML" version="1" md5="e0c9acfc4b35bc5350df765f0b14a70c" size="3173"/>
+		<createRoomView url="resource/view/CreateRoomView_386c8aad5bc4379bc9e57ffacac9c9ad.xml" type="XML" version="1" md5="386c8aad5bc4379bc9e57ffacac9c9ad" size="4064"/>	
+		<hallView url="resource/view/HallView_6b4c0bde0d63117def0cc3dc342cf5b7.xml" type="XML" version="1" md5="6b4c0bde0d63117def0cc3dc342cf5b7" size="9235"/>
+		<teamBattleReportView url="resource/view/TeamBattleReportView_67728a8dc3d5a10ac8774701affd5999.xml" type="XML" version="1" md5="67728a8dc3d5a10ac8774701affd5999" size="30076"/>
+		<roomView url="resource/view/RoomView_143e238c963d42e560d197cbb8cbda7b.xml" type="XML" version="1" md5="143e238c963d42e560d197cbb8cbda7b" size="14337"/>
+		<mallView url="resource/view/Mall_f5233e27419bd40a4158872a21ae7aad.xml" type="XML" version="1" md5="f5233e27419bd40a4158872a21ae7aad" size="18274"/>
+		<chatView url="resource/view/ChatView_65f65c4418f6c69737a42f9bd689fdfb.xml" type="XML" version="1" md5="65f65c4418f6c69737a42f9bd689fdfb" size="2675"/>
+		<mainView url="resource/view/NewMainView_dd40f23fd38158cde4f6126b4fabcd70.xml" type="XML" version="1" md5="dd40f23fd38158cde4f6126b4fabcd70" size="7672"/>
+		<bagView url="resource/view/BagView_d701ebfb143bfdcf1dd5b79ca84f9212.xml" type="XML" version="1" md5="d701ebfb143bfdcf1dd5b79ca84f9212" size="4770"/>
+		<panelView url="resource/view/Panel_066421ba3c5fb563d3ccb76b2931e4ae.xml" type="XML" version="1" md5="066421ba3c5fb563d3ccb76b2931e4ae" size="3821"/>
+		<searchRoomView url="resource/view/SearchRoomView_4f348e131c8b7b59b38a74e630507a7e.xml" type="XML" version="1" md5="4f348e131c8b7b59b38a74e630507a7e" size="12246"/>
+		<pveRewardView url="resource/view/PVERewardView_1effa369c9c424e07f57b9c737cf01a6.xml" type="XML" version="1" md5="1effa369c9c424e07f57b9c737cf01a6" size="2278"/>
+		<enlistView url="resource/view/EnlistView_1052107177aba9c2eb7605f7c3339194.xml" type="XML" version="1" md5="1052107177aba9c2eb7605f7c3339194" size="2640"/>
+		<friendView url="resource/view/FriendView_faca06ca9dc89228eca0b2a200b0b66e.xml" type="XML" version="1" md5="faca06ca9dc89228eca0b2a200b0b66e" size="10361"/>
+		
+		<smileys url="resource/flas/Smileys_3c6aaf901b576be1953c94033f21d16a.swf" type="CLASS" assetsClass="assets.SmileyAsset" version="1" md5="3c6aaf901b576be1953c94033f21d16a" size="108244"/>
+		<resource url="resource/flas/ResourceAssets_3d0c903e0d87f5a51eba22fb6ef40c29.swf" type="CLASS" assetsClass="assets.ResourceAssets" useContext="true" version="1" md5="3d0c903e0d87f5a51eba22fb6ef40c29" size="1165717"/>
+		<battleReport url="resource/flas/BattlereportAssets_f83c507e07921e8c15aeb4061a44c491.swf" type="CLASS" assetsClass="assets.BattlereportAssets" version="1" md5="f83c507e07921e8c15aeb4061a44c491" size="2682877"/>
+		<component url="resource/flas/ComponentAssets_ae61b3c2ec325b00a8bf8452b94fe785.swf" type="CLASS" assetsClass="assets.ComponentAssets" useContext="true" version="1" md5="ae61b3c2ec325b00a8bf8452b94fe785" size="158910"/>
+		<mall url="resource/flas/MallAssets_4ed013d5774e9876bf5615e39bf1459d.swf" type="CLASS" assetsClass="assets.MallAssets" useContext="true" version="1" md5="4ed013d5774e9876bf5615e39bf1459d" size="379567"/>
+		<bag url="resource/flas/BagAssets_9f98223a3b497e778da32c21e6f91bec.swf" type="CLASS" assetsClass="assets.BagAssets" version="1" md5="9f98223a3b497e778da32c21e6f91bec" size="33518"/>
+		<weaponUnlock url="resource/flas/WeaponUnlockAssets_39c3b454bac90a4877b4bf9d72302ac7.swf" type="CLASS" assetsClass="assets.WeaponUnlockAssets" version="1" md5="39c3b454bac90a4877b4bf9d72302ac7" size="264055"/>
+		<match url="resource/flas/MatchAssets_727d1a2486b1afa3120c2c4134aeecd1.swf" type="CLASS" assetsClass="assets.MatchAssets" useContext="true" version="1" md5="727d1a2486b1afa3120c2c4134aeecd1" size="386873"/>
+		<guide url="resource/flas/GuideAssets_f7150bd40a96a0a93b7af19e04aa2549.swf" type="CLASS" assetsClass="assets.GuideAssets" version="1" md5="f7150bd40a96a0a93b7af19e04aa2549" size="80032"/>
+		<rankIcon url="resource/flas/RankIconAssets_d4730099673dc3e002bd8fc27eb1e531.swf" type="CLASS" assetsClass="assets.RankIconAssets" version="1" md5="d4730099673dc3e002bd8fc27eb1e531" size="151206"/>
+		<hall url="resource/flas/RoomListAssets_82a5799168c2205531b216d3a640acd0.swf" type="CLASS" assetsClass="assets.RoomListAssets" version="1" md5="82a5799168c2205531b216d3a640acd0" size="37474"/>
+		<room url="resource/flas/RoomAssets_baf017534f1210446b266ccb851a3081.swf" type="CLASS" assetsClass="assets.RoomAssets" version="1" md5="baf017534f1210446b266ccb851a3081" size="236877"/>
+		<createRoom url="resource/flas/CreateRoomAssets_e895c5a27c39b605c5fabd5c4b79f020.swf" type="CLASS" assetsClass="assets.CreateRoomAssets" version="1" md5="e895c5a27c39b605c5fabd5c4b79f020" size="83893"/>
+		<chat url="resource/flas/ChatAssets_9c4d0abe5f398c3b95278997a286ea5f.swf" type="CLASS" assetsClass="assets.ChatAssets" version="1" md5="9c4d0abe5f398c3b95278997a286ea5f" size="22334"/>
+		<charInfo url="resource/flas/CharInfoAssets_41db682d265ef877625e28fbe593dfb8.swf" type="CLASS" assetsClass="assets.CharInfoAssets" version="1" md5="41db682d265ef877625e28fbe593dfb8" size="134460"/>
+		<firstRecharge url="resource/flas/FirstRechargeAssets_3f3812a16423861ea7efdded49fb89fe.swf" type="CLASS" assetsClass="assets.FirstRechargeAssets" version="1" md5="3f3812a16423861ea7efdded49fb89fe" size="124839"/>
+		<mail url="resource/flas/MailAssets_6fdd2eeb17e8f21b6ba962bc2240d189.swf" type="CLASS" assetsClass="assets.MailAssets" version="1" md5="6fdd2eeb17e8f21b6ba962bc2240d189" size="10920"/>
+		<rookieGuide url="resource/flas/RookieGuideAssets_3e1f3dcb9685d1eaf26547f2b7eb9885.swf" type="CLASS" assetsClass="assets.RookieGuideAssets" version="1" md5="3e1f3dcb9685d1eaf26547f2b7eb9885" size="44883"/>
+		<activity url="resource/flas/Activity2Assets_abef81c76bc4574f82c553637afa28a3.swf" type="CLASS" assetsClass="assets.Activity2Assets" version="1" md5="abef81c76bc4574f82c553637afa28a3" size="1175034"/>
+		<panel url="resource/flas/PanelAssets_eb6ace00a8ca2dba6661045dee2230fe.swf" type="CLASS" assetsClass="assets.PanelAssets" version="1" md5="eb6ace00a8ca2dba6661045dee2230fe" size="940608"/>
+		<pveReward url="resource/flas/PVERewardAssets_bdca854cd553f3882b7377d200cdcc34.swf" type="CLASS" assetsClass="assets.PVERewardAssets" version="1" md5="bdca854cd553f3882b7377d200cdcc34" size="264726"/>
+		<team url="resource/flas/TeamAssets_38ad90bdfd7a0348668bbd0ddf6e7d73.swf" type="CLASS" assetsClass="assets.TeamAssets" version="1" md5="38ad90bdfd7a0348668bbd0ddf6e7d73" size="440956"/>
+		<weaponStorage url="resource/flas/WeaponStorageAssets_f344422f951eeac738c0bea503fbe7a5.swf" type="CLASS" useContext="true" assetsClass="assets.WeaponStorageAssets" version="1" md5="f344422f951eeac738c0bea503fbe7a5" size="1272334"/>
+		<rank url="resource/flas/RankAssets_ee70a275b1828bbc6c85ee798e1dbfcb.swf" type="CLASS" assetsClass="assets.RankAssets" version="1" md5="ee70a275b1828bbc6c85ee798e1dbfcb" size="47396"/>
+		<collect url="resource/flas/CollectAssets_ccdab54850a194a8d16e4c1c0603ca06.swf" type="CLASS" assetsClass="assets.CollectAssets" useContext="true" version="1" md5="ccdab54850a194a8d16e4c1c0603ca06" size="70835"/>
+		<gift url="resource/flas/GiftAssets_2c7622c4cf6986ab42f586d312ebbd53.swf" type="CLASS" assetsClass="assets.GiftAssets" version="1" md5="2c7622c4cf6986ab42f586d312ebbd53" size="10957"/>
+		<singIn url="resource/flas/SignInAssets_9d640f6f9598a1c165b87f4fea018efa.swf" type="CLASS" assetsClass="assets.SignInAssets" version="1" md5="9d640f6f9598a1c165b87f4fea018efa" size="97512"/>
+		<channel url="resource/flas/ChannelAssets_bc326818ad64831e4eace2b69f4812a2.swf" type="CLASS" assetsClass="assets.ChannelAssets" version="1" md5="bc326818ad64831e4eace2b69f4812a2" size="27583"/>
+		<social url="resource/flas/SocialAssets_c12c7a27312be10cf3587e831003f76e.swf" type="CLASS" assetsClass="assets.SocialAssets" version="1" md5="c12c7a27312be10cf3587e831003f76e" size="53796"/>
+		<searchRoom url="resource/flas/SearchRoomAssets_68772983795ffd82d1c82bb871daa910.swf" type="CLASS" assetsClass="assets.SearchRoomAssets" version="1" md5="68772983795ffd82d1c82bb871daa910" size="157564"/>
+		<enlist url="resource/flas/EnlistAssets_72d0cc3fa28cf2f79ba7f19597e3ce76.swf" type="CLASS" assetsClass="assets.EnlistAssets" version="1" md5="72d0cc3fa28cf2f79ba7f19597e3ce76" size="51426"/>		
+		<gameData url="template/GameData_f9ca1ed4c4ff9ece92a152e20a639f01.swf" type="CLASS" version="1" md5="f9ca1ed4c4ff9ece92a152e20a639f01" size="58824"/>
+	</gameres>
+	<queue>
+		<mainScene>mapConfigXML|mapSortXML|gameModeXML|resource|component|chat|chatView|bag|bagView|panel|panelView|rankIcon|collect|channel|channelView|mainView</mainScene>
+		<preData>I18N|gameData|dirtyWords</preData>
+		<hall>smileys|hall|chat|hallView|chatView</hall>
+		<room>battleReport|room|teamBattleReportView|roomView|enlist|enlistView</room>
+		<social>friendView|social</social>
+		<mall>mall|weaponUnlock|gift|mallView</mall>
+		<firstRecharge>mall|firstRecharge</firstRecharge>
+		<weaponUnlock>mall|weaponUnlock|weaponUnlockView</weaponUnlock>
+		<match>match|smileys|battleReport|chat|chatView|matchView|teamBattleReportView|enlist|enlistView</match>
+		<weaponStorage>weaponStorage|weaponStorage2View|weaponUnlock</weaponStorage>
+		<mail>mail|mailView</mail>
+		<rank>rank|newRankView|matchView</rank>
+		<charInfo>charInfo|charInfoView</charInfo>
+		<createRoom>createRoom|createRoomView</createRoom>
+		<searchRoom>searchRoom|hall|searchRoomView</searchRoom>
+		<pveReward>pveRewardView|pveReward</pveReward>
+	</queue>
+</root>

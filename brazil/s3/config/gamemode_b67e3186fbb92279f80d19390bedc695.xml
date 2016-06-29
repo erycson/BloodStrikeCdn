@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- parentId 父模式id -->
+<!-- rule 规则，1杀敌数，2时间，3回合，子模式选填，不填等同父模式-->
+<!-- target 规则的目标数量 -->
+<!-- roomName 创建房间时的默认房间名，子模式必填-->
+<!-- description 模式说明-->
+<!-- hallSort 模式在大厅中的排序-->
+<!-- recommends 模式推荐id，recomends表id-->
+<!-- newMode 是否是新模式， 1是0否，子模式必填-->
+<!-- promiseToFight 1约战地图-->
+
+
+<root>
+	<mode id="1" name="Modo de batalhas" parentId="0" />
+
+	<mode id="9001" name="Zumbi" parentId="1" sortIndex="1" virtual="true">
+		<roomName>Todos por um!</roomName>
+		<description type="string"><![CDATA[Ao redor do local de destino, os dois campos começam defuse ofensivo e defensivo]]></description>
+		<recommends>1006</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="6" name="Zumbi" parentId="9001" sortIndex="1">
+		<rule id="3" target="13" />
+		<roomName>Zumbis Soltos!</roomName>
+		<description type="string"><![CDATA[Modo de Zumbi,sobreviva no ataque de Zumbi]]></description>
+		<hallSort>2</hallSort>
+		<recommends>1006</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="20" name="Despertar" parentId="9001" sortIndex="2">
+		<rule id="3" target="13" />
+		<roomName>Sinta o grande poder da despertação</roomName>
+		<description type="string"><![CDATA[Energia alcançou o limite, liberou novas habilidades e modos!]]></description>
+		<hallSort>3</hallSort>
+		<recommends>1006</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="14" name="O último" parentId="9001" sortIndex="3">
+		<rule id="3" target="13" />
+		<roomName>Último Zumbi， sobreviva ao fim do mundo!</roomName>
+		<description type="string"><![CDATA[Modo Último Zumbi. Quem sobreviver é o Herói!]]></description>
+		<hallSort>4</hallSort>
+		<recommends>1006</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="16" name="Superforça" parentId="9001" sortIndex="4">
+		<rule id="3" target="13" />
+		<roomName>Super-Humanos Vs Tropa Zumbi! </roomName>
+		<description type="string"><![CDATA[No Modo de Super-força alguns humanos vão obter habilidades. A união faz a força!]]></description>
+		<hallSort>5</hallSort>
+		<recommends>1006</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="17" name="Ghost Zumbi" parentId="9001" sortIndex="5">
+		<rule id="3" target="13" />
+		<roomName>Detectar Vs Morrer！</roomName>
+		<description type="string"><![CDATA[Na escuridão, aproveite o relâmpago e detector para descobrir e matar Ghost Zumbis]]></description>
+		<hallSort>6</hallSort>
+		<recommends>1008</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="7" name="Mestre" parentId="9001" sortIndex="6">
+		<rule id="3" target="13" />
+		<roomName>Heróis x Zumbis</roomName>
+		<description type="string"><![CDATA[Modo de Mestre Zumbi,sobreviva no ataque de Zumbi]]></description>
+		<hallSort>7</hallSort>
+		<recommends>1007</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+
+	<mode id="19" name="Cabeção Herói" parentId="1" sortIndex="7">
+		<rule id="3" target="5" />
+		<roomName>Modo Cabeção Herói</roomName>
+		<description type="string"><![CDATA[Vire o Cabeção Herói e dirija a equipe à vitória.]]></description>
+		<hallSort>8</hallSort>
+		<recommends>1003</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="15" name="Ninja das armas brancas" parentId="1" sortIndex="8">
+		<rule id="3" target="9" />
+		<roomName>Ninja das armas brancas</roomName>
+		<description type="string"><![CDATA[Modo Ninja das armas brancas, lute com os seus companheiros, seja a lenda das lâminas.]]></description>
+		<hallSort>9</hallSort>
+		<recommends>1041</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+
+	<mode id="9003" name="Defuse" parentId="1" sortIndex="9" virtual="true">
+		<roomName>Todos por um</roomName>
+		<description type="string"><![CDATA[Ao redor do local de destino, os dois campos começam defuse ofensivo e defensivo]]></description>
+		<recommends>1002</recommends>
+		<newMode>0</newMode>
+		<promiseToFight>1</promiseToFight>
+	</mode>
+	<mode id="23" name="Defuse Fantasma" parentId="9003" sortIndex="9">
+		<rule id="3" target="7" />
+		<roomName>O fantasma está à tua espera</roomName>
+		<description type="string"><![CDATA[Mate o Mestre Fantasma, ou fique nas sombras e aproveite a invisibilidade para atacar!]]></description>
+		<hallSort>1</hallSort>
+		<recommends>1002</recommends>
+		<newMode>1</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="2" name="Defuse" parentId="9003" sortIndex="10">
+		<rule id="3" target="7" />
+		<roomName>Todos por um</roomName>
+		<description type="string"><![CDATA[Ao redor do local de destino, os dois campos começam defuse ofensivo e defensivo]]></description>
+		<hallSort>10</hallSort>
+		<recommends>1002</recommends>
+		<newMode>0</newMode>
+		<promiseToFight>1</promiseToFight>
+	</mode>
+	<mode id="13" name="Vital" parentId="9003" sortIndex="11" defalutMode="true">
+		<rule id="3" target="7" />
+		<roomName>Bomba Neles</roomName>
+		<description type="string"><![CDATA[Salve oportunamente os seus companheiros! Há uma batalha sangrenta ao redor do ponto de plantar a bomba!]]></description>
+		<hallSort>11</hallSort>
+		<recommends>1002</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="8" name="Ilimitado" parentId="9003" sortIndex="12">
+		<rule id="3" target="7" />
+		<roomName>Bomba Neles</roomName>
+		<description type="string"><![CDATA[Ambos os campos revivem ilimitadamente，Ao redor do local de destino,começam defuse ofensivo e defensivo]]></description>
+		<hallSort>12</hallSort>
+		<recommends>1002</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+
+	<mode id="12" name="Batalha de Morte" parentId="1" sortIndex="13">
+		<rule id="3" target="13" />
+		<roomName>Sobrevivência garante poder de luta!</roomName>
+		<description type="string"><![CDATA[Salve oportunamente o seu companheiros! Mate todos os inimigos em outro campo.]]></description>
+		<hallSort>13</hallSort>
+		<recommends>1003</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+
+	<mode id="9002" name="Batalha em Grupo" parentId="1" sortIndex="10" virtual="true">
+		<roomName>Pegue sua arma e lute pela vitòria</roomName>
+		<description type="string"><![CDATA[对抗敌方阵营，尽可能多的消灭敌人。]]></description>
+		<recommends>1003</recommends>
+		<newMode>0</newMode>
+		<promiseToFight>1</promiseToFight>
+	</mode>
+	<mode id="3" name="Em Grupo" parentId="9002" sortIndex="14">
+		<rule id="1" target="100" />
+		<rule id="2" target="8" />
+		<roomName>Batalha em Grupo</roomName>
+		<description type="string"><![CDATA[Luta contra grupo inimigo,matar os inimigos o mais possível ]]></description>
+		<hallSort>14</hallSort>
+		<recommends>1003</recommends>
+		<newMode>0</newMode>
+		<promiseToFight>1</promiseToFight>
+	</mode>
+	<mode id="32" name="Grupo Grab&Shoot" parentId="9002" sortIndex="15" defalutMode="true">
+		<rule id="1" target="100" />
+		<rule id="2" target="8" />
+		<roomName>Pegue sua arma e lute pela vitòria</roomName>
+		<description type="string"><![CDATA[Arrebatar aramas,luta contra grupo inimigo,matar inimigos o mais possível]]></description>
+		<hallSort>15</hallSort>
+		<recommends>1003</recommends>
+		<newMode>0</newMode>
+		<promiseToFight>1</promiseToFight>
+	</mode>
+	<mode id="21" name="Headshot Grupo" parentId="9002" sortIndex="16">
+		<rule id="1" target="200" />
+		<rule id="2" target="12" />
+		<roomName>Mire na cabeça e Atire!</roomName>
+		<description type="string"><![CDATA[Somento tiro na cabeça causará dano!!]]></description>
+		<hallSort>16</hallSort>
+		<recommends>1003</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="11" name="Grupo Skill" parentId="9002" sortIndex="17">
+		<rule id="1" target="200" />
+		<rule id="2" target="12" />
+		<roomName>Na Sabedoria</roomName>
+		<description type="string"><![CDATA[Pesquisar todo o mapa.Misturar,atualizar habilidade para maior poder de luta.]]></description>
+		<hallSort>17</hallSort>
+		<recommends>1003</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="22" name="Grupo SkillⅡ" parentId="9002" sortIndex="18">
+		<rule id="3" target="5" />
+		<roomName>Vire herói!</roomName>
+		<description type="string"><![CDATA[Procure por toda a mapa, combinar e upar habilidades para obter mais poderes!]]></description>
+		<hallSort>18</hallSort>
+		<recommends>1003</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+
+	<mode id="4" name="Especial" parentId="1" sortIndex="19">
+		<rule id="1" target="80" />
+		<rule id="2" target="8" />
+		<roomName>Go!! Avante!</roomName>
+		<description type="string"><![CDATA[Luta por si mesmo,pode usar qualquer arma ]]></description>
+		<hallSort>19</hallSort>
+		<recommends>1004</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="42" name="Sniper" info="Estilo" parentId="4" sortIndex="191">
+		<roomName>Esp. Sniper</roomName>
+		<description type="string"><![CDATA[Luta contra grupo inimigo só com sniper]]></description>
+		<hallSort>191</hallSort>
+		<recommends>1042</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="43" name="Pistola" info="Estilo" parentId="4" sortIndex="192">
+		<rule id="1" target="60" />
+		<roomName>Esp. Pistola</roomName>
+		<description type="string"><![CDATA[Luta contra grupo inimigo só com pistola ]]></description>
+		<hallSort>192</hallSort>
+		<recommends>1043</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="41" name="Faca" info="Estilo" parentId="4" sortIndex="193">
+		<rule id="1" target="40" />
+		<roomName>Esp.Na Faca</roomName>
+		<description type="string"><![CDATA[Luta contra grupo inimigo só com arma branca]]></description>
+		<hallSort>193</hallSort>
+		<recommends>1041</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="44" name="Granadas" info="Estilo" parentId="4" sortIndex="194">
+		<rule id="1" target="60" />
+		<roomName>Esp. Granadas</roomName>
+		<description type="string"><![CDATA[Luta contra grupo inimigo só com granadas]]></description>
+		<hallSort>194</hallSort>
+		<recommends>1044</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="45" name="Espingarda" info="Estilo" parentId="4" sortIndex="195">
+		<rule id="1" target="40" />
+		<roomName>Esp. Shotgun</roomName>
+		<description type="string"><![CDATA[Luta contra grupo inimigo só com Espingarda]]></description>
+		<hallSort>195</hallSort>
+		<recommends>1045</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="46" name="Headshot Pistola" info="Batalha Especial-Headshot Pistola" parentId="4" sortIndex="196">
+		<rule id="1" target="40" />
+		<roomName>Mire na cabeça e atire!</roomName>
+		<description type="string"><![CDATA[Use a pistola. somente tiro na cabeça causará dano!]]></description>
+		<hallSort>196</hallSort>
+		<recommends>1043</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+
+	<mode id="9004" name="Mestre das Armas" parentId="1" sortIndex="20" virtual="true">
+		<roomName>Só existe UM Senhor das Armas!</roomName>
+		<description type="string"><![CDATA[枪王模式]]></description>
+		<recommends>1005</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="10" name="S.D.A Grupo" parentId="9004" sortIndex="20" defalutMode="true">
+		<roomName>Bora sem medo</roomName>
+		<description type="string"><![CDATA[Luta de senhores das armas na forma de grupo,só pode usar armas específicas]]></description>
+		<hallSort>20</hallSort>
+		<recommends>1005</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="9" name="Sr. Armas" parentId="9004" sortIndex="21">
+		<roomName>Vc é o Cara?</roomName>
+		<description type="string"><![CDATA[O CARA! Será obtida a arma selecionada para batalha]]></description>
+		<hallSort>21</hallSort>
+		<recommends>1005</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+
+	<mode id="5" name="Individual" parentId="1" sortIndex="22">
+		<rule id="1" target="40" />
+		<rule id="2" target="8" />
+		<roomName>Go!! Avante!</roomName>
+		<description type="string"><![CDATA[模式说明]]></description>
+		<hallSort>22</hallSort>
+		<recommends>1005</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="51" name="Normal" parentId="5" sortIndex="221">
+		<roomName>GO GO GO!</roomName>
+		<description type="string"><![CDATA[Luta por si mesmo,pode usar qualquer arma ]]></description>
+		<hallSort>221</hallSort>
+		<recommends>1051</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="53" name="Sniper" info=" Solo" parentId="5" sortIndex="222">
+		<roomName>Indv.Sniper</roomName>
+		<description type="string"><![CDATA[Luta por si mesmo,só pode usar Sniper]]></description>
+		<hallSort>222</hallSort>
+		<recommends>1053</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="54" name="Pistola" info="Solo" parentId="5" sortIndex="223">
+		<rule id="1" target="30" />
+		<roomName>Indv. Pistola</roomName>
+		<description type="string"><![CDATA[Luta por si mesmo,só pode usar pistola]]></description>
+		<hallSort>223</hallSort>
+		<recommends>1054</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="52" name="Na Faca" info="Solo" parentId="5" sortIndex="224">
+		<rule id="1" target="20" />
+		<roomName>Indv. Na Faca</roomName>
+		<description type="string"><![CDATA[Luta por si mesmo,só pode usar arma branca]]></description>
+		<hallSort>224</hallSort>
+		<recommends>1052</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="55" name="Granadas" info="Solo" parentId="5" sortIndex="225">
+		<rule id="1" target="20" />
+		<roomName>Indv.Granadas</roomName>
+		<description type="string"><![CDATA[Luta por si mesmo,só pode usar Granadas]]></description>
+		<hallSort>225</hallSort>
+		<recommends>1055</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="57" name="Espingarda" info="Solo" parentId="5" sortIndex="226">
+		<rule id="1" target="20" />
+		<roomName>Indv.-Shotgun</roomName>
+		<description type="string"><![CDATA[Luta por si mesmo,só pode usar Espingarda]]></description>
+		<hallSort>226</hallSort>
+		<recommends>1057</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<mode id="58" name="Tiro na cabeça Individual" info="Batalha Individual-Tiro na cabeça" parentId="5" sortIndex="227">
+		<rule id="1" target="20" />
+		<roomName>Mire na cabeça, atire!</roomName>
+		<description type="string"><![CDATA[Batalha individual. Somente com tiro na cabeça causará dano!]]></description>
+		<hallSort>227</hallSort>
+		<recommends>1051</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+	<!-- <mode id="56" name="冲锋战" info="个人战-冲锋战" parentId="5" sortIndex="56"/> -->
+	<!-- <mode id="57" name="喷战" info="个人战-喷战" parentId="5" sortIndex="57"/> -->
+
+	<mode id="1001" name="Dead Rising" parentId="1" sortIndex="23">
+		<rule id="4" target="1" />
+		<roomName>Dead Rising</roomName>
+		<description type="string"><![CDATA[Defender a base, garantindo que ela não seja destruido entre 18 rounds!]]></description>
+		<hallSort>23</hallSort>
+		<recommends>1009</recommends>
+		<newMode>0</newMode>
+		<promiseToFight></promiseToFight>
+	</mode>
+</root>

@@ -1,0 +1,144 @@
+<actions>
+	<legs_action  name="LEGS_IDLE" start="1" end="1" loop="true" reverse="false"/>
+	<legs_action  name="LEGS_RUN" start="1" end="40" loop="true" reverse="false"/>
+	<legs_action  name="LEGS_RUNB" start="1" end="40" loop="true" reverse="true"/>
+	<legs_action  name="LEGS_WALK" start="86" end="120" loop="true" reverse="false"/>
+	<legs_action  name="LEGS_WALKB" start="86" end="120" loop="true" reverse="true"/>
+	<legs_action  name="LEGS_JUMP" start="156" end="170" loop="false" reverse="false"/>
+	<legs_action  name="LEGS_LAND" start="179" end="198" loop="false" reverse="false"/>
+	<legs_action  name="LEGS_CROUCH_IDLE" start="199" end="199" loop="true" reverse="false"/>
+	<legs_action  name="LEGS_CROUCH_WALK" start="121" end="155" loop="true" reverse="false"/>
+	<legs_action  name="LEGS_CROUCH_WALKB" start="121" end="155" loop="true" reverse="true"/>
+	<legs_action  name="LEGS_DIE" start="200" end="260" loop="false" reverse="false"/>
+	<torso_action name="TORSO_DIE" start="200" end="260" loop="false" reverse="false"/>
+	<legs_action  name="HEADSHOT" start="0" end="27" loop="false" reverse="false"/>
+	<torso_action name="HEADSHOT" start="0" end="27" loop="false" reverse="false"/>
+	<legs_action  name="HEADSHOT_F" start="0" end="27" loop="false" reverse="false"/>
+	<torso_action name="HEADSHOT_F" start="0" end="27" loop="false" reverse="false"/>
+	<weapon_torso_actions>
+		<weapon name='m4a1'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="1" end="6" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="1" end="52" loop="false" reverse="false"/>
+		</weapon>
+		<weapon name='hk416'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="1" end="6" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="1" end="52" loop="false" reverse="false"/>
+		</weapon>
+		<weapon name='double_maul'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="2" end="2" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="3" end="13" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="109" end="160" loop="false" reverse="false"/>
+		</weapon>
+		<weapon name='ak47'>
+			<torso_action name="TORSO_CROUCH_STAND" start="499" end="499" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="500" end="500" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="501" end="509" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="509" end="560" loop="false" reverse="false"/>
+			<torso_action name="TORSO_SECONDARY_ATTACK" start="1" end="29" loop="true" reverse="false"/>
+		</weapon>
+		<weapon name='rpk_hero'>
+			<torso_action name="TORSO_CROUCH_STAND" start="499" end="499" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="500" end="500" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="501" end="509" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="509" end="560" loop="false" reverse="false"/>
+			<torso_action name="TORSO_SECONDARY_ATTACK" start="1" end="29" loop="true" reverse="false"/>
+		</weapon>
+		<weapon name='thomson'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="1" end="6" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="1" end="52" loop="false" reverse="false"/>
+		</weapon>
+		<weapon name='gatling'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="1" end="6" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="64" end="175" loop="false" reverse="false"/>
+			<torso_action name="TORSO_SECONDARY_ATTACK" start="1" end="1" loop="true" reverse="false"/>
+		</weapon>
+		<weapon name='double_baton'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="1" end="25" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK2" start="1" end="25" loop="true" reverse="false"/>
+		</weapon>
+		<weapon name='bat'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="1" end="25" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK2" start="1" end="25" loop="true" reverse="false"/>
+		</weapon>
+		<weapon name='scythe'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="1" end="25" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK2" start="1" end="25" loop="true" reverse="false"/>
+		</weapon>
+		<weapon name='hammer'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="1" end="25" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK2" start="1" end="25" loop="true" reverse="false"/>
+		</weapon>
+		<weapon name='gloves'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="1" end="25" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK2" start="1" end="25" loop="true" reverse="false"/>
+		</weapon>
+		<weapon name='slingshot'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="0" end="12" loop="true" reverse="false"/>
+		</weapon>
+		<weapon name='double_deagle'>
+			<torso_action name="TORSO_CROUCH_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="1" end="1" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="1" end="11" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK2" start="1" end="11" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="1" end="52" loop="false" reverse="false"/>
+		</weapon>
+		<weapon name='deagle'>
+			<torso_action name="TORSO_CROUCH_STAND" start="299" end="299" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="300" end="300" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="301" end="309" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="309" end="360" loop="false" reverse="false"/>
+		</weapon>
+		<weapon name='awp'>
+			<torso_action name="TORSO_CROUCH_STAND" start="399" end="399" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="400" end="400" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="401" end="409" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="409" end="460" loop="false" reverse="false"/>
+		</weapon>
+		<weapon name='dagger'>
+			<torso_action name="TORSO_CROUCH_STAND" start="599" end="599" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="600" end="600" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="601" end="625" loop="true" reverse="false"/>
+			<torso_action name="TORSO_SECONDARY_ATTACK" start="601" end="625" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="625" end="657" loop="false" reverse="false"/>
+		</weapon>
+		<weapon name='grenade'>
+			<torso_action name="TORSO_CROUCH_STAND" start="699" end="699" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="700" end="700" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="301" end="309" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="309" end="360" loop="false" reverse="false"/>
+			<torso_action name="TORSO_GRENADE_START" start="701" end="718" loop="false" reverse="false"/>
+			<torso_action name="TORSO_GRENADE_READLY" start="718" end="718" loop="true" reverse="false"/>
+			<torso_action name="TORSO_GRENADE_ATTACK" start="718" end="747" loop="false" reverse="false"/>
+		</weapon>
+		<weapon name='c4'>
+			<torso_action name="TORSO_CROUCH_STAND" start="699" end="699" loop="true" reverse="false"/>
+			<torso_action name="TORSO_STAND" start="700" end="700" loop="true" reverse="false"/>
+			<torso_action name="TORSO_ATTACK" start="1" end="120" loop="true" reverse="false"/>
+			<torso_action name="TORSO_RELOAD" start="309" end="360" loop="false" reverse="false"/>
+			<torso_action name="TORSO_GRENADE_START" start="701" end="718" loop="false" reverse="false"/>
+			<torso_action name="TORSO_GRENADE_READLY" start="718" end="718" loop="true" reverse="false"/>
+			<torso_action name="TORSO_GRENADE_ATTACK" start="718" end="747" loop="false" reverse="false"/>
+		</weapon>
+	</weapon_torso_actions>
+</actions>

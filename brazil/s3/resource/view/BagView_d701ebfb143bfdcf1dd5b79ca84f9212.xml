@@ -1,0 +1,55 @@
+<config>
+  <UIComponent name="cellMaster" properties="{'x':5,'y':59}"/>
+  <UIComponent name="cellSeondary" properties="{'x':5,'y':164}"/>
+  <UIComponent name="cellClosed" properties="{'x':5,'y':270}"/>
+  <UIComponent name="cellBoom1" properties="{'x':5,'y':377}"/>
+  <UIComponent name="cellBoom2" properties="{'x':65,'y':377}"/>
+  <UIComponent name="cellBoom3" properties="{'x':125,'y':377}"/>
+  <UIButton name="fixAllBtn" properties="{'x':113,'y':10,'width':70,'height':18,'skins':'BagAssets.btn_repair_all','textColor':'0xffffff'}"/>
+  <SmallBagView>
+    <UIComponent name="cellBoom1" properties="{'x':98,'y':89}"/>
+    <UIComponent name="cellBoom2" properties="{'x':150,'y':89}"/>
+    <UIComponent name="cellBoom3" properties="{'x':202,'y':89}"/>
+    <UIComponent name="cellMaster" properties="{'x':0,'y':23}"/>
+    <UIComponent name="cellSeondary" properties="{'x':154,'y':23}"/>
+    <UIComponent name="cellClosed" properties="{'x':0,'y':89}"/>
+  </SmallBagView>
+  <CommonCell>
+    <MovieClip name="_bg" definition="BagAssets.bag_bg_layer1" properties="{'x':0,'y':0,'width':177,'height':102}"/>
+    <UILabel name="_nameTf" properties="{'x':11,'y':2,'width':80,'height':21,'fontSize':14,'textColor':'0xffffff','zLanID':'WORD_280'}"/>
+    <UILabel name="_typeNameTf" properties="{'x':128,'y':4,'width':70,'height':21,'textColor':'0xAD956F'}"/>
+    <MovieClip name="durationLayerRed" definition="BagAssets.duration_layer_red" properties="{'x':3,'y':18,'width':170,'height':55}"/>
+    <MovieClip name="durationLayerGreen" definition="BagAssets.duration_layer_green" properties="{'x':3,'y':18,'width':170,'height':55}"/>
+    <UILabel name="_remainTf" properties="{'x':148,'y':55,'width':45,'height':21,'textColor':'0x33CCCC'}"/>
+    <UIAssetsLoader name="_icon" properties="{'x':1,'y':22}"/>
+    <UIButton name="_unequipBtn" properties="{'x':124,'y':78,'width':45,'height':18,'skins':'ResourceAssets.bag_toggle','textColor':'0xffffff','zLanID':'WORD_284'}"/>
+    <UIButton name="_fixBtn" properties="{'x':8,'y':78,'width':45,'height':18,'skins':'ResourceAssets.bag_toggle','textColor':'0xffffff','zLanID':'WORD_283'}"/>
+    <UIAsset name="neverExpiredIcon" properties="{'x':128.35,'y':55,'width':42,'height':18,'assetName':'ResourceAssets.never_expired_icon'}"/>
+    <UIAsset name="defaultIcon" properties="{'x':59.35,'y':24,'width':50,'height':50}"/>
+  </CommonCell>
+  <BombCell>
+    <MovieClip name="_bg" definition="BagAssets.bag_bg_layer_new2" properties="{'x':0,'y':0,'width':57,'height':93}"/>
+    <MovieClip name="_icon" definition="lobby.model.AssetsLoader" properties="{'x':6,'y':22}"/>
+    <UIAsset name="defaultIcon" properties="{'x':18,'y':33,'width':21.05,'height':28.05,'assetName':'BagAssets.weapon_slwq_icon'}"/>
+    <MovieClip name="_lockIcon" definition="BagAssets.bag_lock" properties="{'x':10,'y':24,'width':36.1,'height':36.1}"/>
+    <UILabel name="_remainTf" properties="{'x':12,'y':48,'width':45,'height':21,'textColor':'0x33CCCC'}"/>
+    <UILabel name="_nameTf" properties="{'x':0,'y':4,'width':80,'height':21,'fontSize':14,'textColor':'0xffffff','zLanID':'WORD_280'}"/>
+    <UIButton name="_unequipBtn" properties="{'x':6,'y':68,'width':45,'height':18,'skins':'ResourceAssets.bag_toggle','textColor':'0xffffff','zLanID':'WORD_284'}"/>
+    <UIAsset name="neverExpiredIcon" properties="{'x':8,'y':48,'width':42,'height':18,'assetName':'ResourceAssets.never_expired_icon'}"/>
+  </BombCell>
+  <SmallBombCell>
+    <MovieClip name="_bg" definition="BagAssets.package_layer4" properties="{'x':0,'y':0,'width':50,'height':63}"/>
+    <MovieClip name="_icon" definition="lobby.model.AssetsLoader" properties="{'x':4,'y':2.35}"/>
+    <MovieClip name="_lockIcon" definition="BagAssets.bag_lock" properties="{'x':7,'y':14,'width':36.1,'height':36.1}"/>
+    <UIAsset name="defaultIcon" properties="{'x':14,'y':18,'width':21,'height':28,'assetName':'BagAssets.weapon_slwq_icon'}"/>
+    <UIAsset name="neverExpiredIcon" properties="{'x':4,'y':40,'width':42,'height':18,'assetName':'ResourceAssets.never_expired_icon'}"/>
+  </SmallBombCell>
+  <SmallCommonCell>
+    <UIAsset name="_bg" properties="{'x':0,'y':-1.25,'width':50,'height':63}"/>
+    <MovieClip name="_icon" definition="lobby.model.AssetsLoader" properties="{'x':4,'y':2.1}"/>
+    <UIAsset name="defaultIcon" properties="{'x':14,'y':16.75,'width':21,'height':28}"/>
+    <MovieClip name="_damagedProgress" definition="lobby.view.components.styled.StyledProgress" properties="{'x':6,'y':51}"/>
+    <UIButton name="_fixBtn" properties="{'x':75.35,'y':42.1,'width':15,'height':14,'skins':'BagAssets.btn_repair','textColor':'0xffffff'}"/>
+    <UIAsset name="neverExpiredIcon" properties="{'x':4,'y':40,'width':42,'height':18,'assetName':'ResourceAssets.never_expired_icon'}"/>
+  </SmallCommonCell>
+</config>

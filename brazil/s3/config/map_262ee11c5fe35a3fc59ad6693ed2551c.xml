@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  地图配置模板 -->
+<!--  name - 地图名称  -->
+<!--  description - 地图信息  -->
+<!--  res - 地图缩略图  -->
+<!--  type - 该地图允许的模式：1竞技 2爆破 3团队 32娱乐团战 4特殊 5个人 6变异 7死神降临 8无限爆破 9 个人枪王 10团队枪王 11团队争霸 12死亡竞赛 13生死爆破 14终极变异 15刀锋战士 16超能变异 17幽灵变异 18塔防模式 19大头英雄 20变异觉醒 21团队爆头 22新团队争霸 23鬼魂爆破 1001丧尸围城（允许多项模式并存，如1|2|3）  -->
+<!--  subType - 地图允许的特殊模式下的子分类：41刀战 42狙战 43手枪战 44手雷战  45霰弹枪战 51普通 52刀战 53狙击战 54手枪战 55手雷战 56冲锋战 57霰弹枪战 58个人爆头（允许多项模式并存，如1|2|3）  -->
+<!--  recomendType 快速开始推荐的游戏模式-->
+<!--  recomendSubType 快速开始推荐的游戏子模式-->
+<!--  newMap 1表示是新地图，0表示否-->
+<!--  promiseToFight 1约战地图-->
+<!--  defaultPlayerNum 创建房间时的默认人数-->
+
+
+<root>
+	<child>
+		<id>1</id>
+		<name type="string">Deserto Ⅱ</name>
+		<description type="string"><![CDATA[Este mapa vem do famoso mapa Dust2 de CS, e sua grande área e terreno plano permitem que você usufrua melhor de suas armas.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|8|9|12|13|19|23</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|8|9|12|13|19|23</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>2</id>
+		<name type="string">Fábrica Abandonada</name>
+		<description type="string"><![CDATA[Este mapa é parecido com o famoso mapa Inferno de CS, e baseado neste mapa a paisagem e os detalhes foram alterados.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|8|9|12|13|23</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|8|9|12|13|23</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>3</id>
+		<name type="string">Sala Secreta</name>
+		<description type="string"><![CDATA[Este é um mapa muito compacto e é praticamente igual ao mapa Bloodstrike do CS, pelo fato deste mapa ser muito pequeno torna-o mais excitante, rápido e violento.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|21</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|10|21</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+<!-- 	<child>
+		<id>4</id>
+		<name type="string">灰色基地</name>
+		<description type="string"><![CDATA[尺寸适中的十字形格局，直线视野开阔，直线式突击和中距离点射是这张地图的战斗主题。]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10</type>
+		<subType type="string">41|42|43|44</subType>
+		<recomendType>3|32|4|10</recomendType>
+		<recomendSubType>41|42|43|44</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child> -->
+	<child>
+		<id>5</id>
+		<name type="string">Armazén</name>
+		<description type="string"><![CDATA[Este é um mapa de porte médio,com campo de visão limitado pois dentro do mapa há vários containers e o local de confronto é entre estes containers o que torna o combate mais rápido.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|11|21|22</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|10|11|21|22</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+	<child>
+		<id>6</id>
+		<name type="string">Grand Canyon</name>
+		<description type="string"><![CDATA[Neste lugar de ruínas de templos antigos, há uma variedade de esculturas mágicas, tòtens, céu azul e um desfiladeiro que se encontra entre eles. Tornando o mapa um paraíso para snipers.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">4</type>
+		<subType type="string">42</subType>
+		<recomendType>4</recomendType>
+		<recomendSubType>42</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+	<child>
+		<id>7</id>
+		<name type="string">Instituto 77</name>
+		<description type="string"><![CDATA[É um instituto misterioso onde todas as pessoas que entram, à meia noite, sofrem uma estranha mutação.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>8</id>
+		<name type="string">Cidade Oriental</name>
+		<description type="string"><![CDATA[Esta cidade foi feita com estilo tradicional chinês com telhados curvados, muros altos e muitas ruas espalhadas.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|3|32|4|5|9|12|13|15|19|21</type>
+		<subType type="string">41|42|43|44|45|46|51|52|53|54|55|57|58</subType>
+		<recomendType>2|3|32|4|5|9|12|13|15|19|21</recomendType>
+		<recomendSubType>41|42|43|44|45|46|51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>9</id>
+		<name type="string">Coliseu</name>
+		<description type="string"><![CDATA[Um mundo sem tiros, sem fumaça e sem fogo, onde as únicas armas que você poderá usar são armas brancas para conquistar a vitória!]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">4</type>
+		<subType type="string">41</subType>
+		<recomendType>4</recomendType>
+		<recomendSubType>41</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+<!-- 	<child>
+		<id>10</id>
+		<name type="string">暮光城</name>
+		<description type="string"><![CDATA[沉静的暮光城，被一群突如其来的战争给打破了，这里的夜晚不再宁静。]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|9|13</type>
+		<subType type="string">51|52|53|54|55|57</subType>
+		<recomendType>2|5|9|13</recomendType>
+		<recomendSubType>51|52|53|54|55|57</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+ 	<child>
+		<id>11</id>
+		<name type="string">山谷矿区</name>
+		<description type="string"><![CDATA[山谷中荒废的矿区，被神秘组织占据后，入夜后会变成一个恐怖的世界。]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child> -->
+	<child>
+		<id>12</id>
+		<name type="string">Forte de Gelo</name>
+		<description type="string"><![CDATA[Conflitos no mundo congelado, use sua arma para dominar este campo!]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|21</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|10|21</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+	<child>
+		<id>13</id>
+		<name type="string">Ponte Levadiça</name>
+		<description type="string"><![CDATA[Ruínas desertas, prédios vazios, pedregulhos enormes empilhados em todos os lugares, a batalha Defuse começa agora!]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|9|12|13|23</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|9|12|13|23</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>14</id>
+		<name type="string">Estação de Trem</name>
+		<description type="string"><![CDATA[Estação de Trem é um centro de transporte local, onde armanezado um grande número de fornecimentos de armas que torna o lugar disputado pelos terroristas!]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|9|12|13</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|9|12|13</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>15</id>
+		<name type="string">Guerra Urbana</name>
+		<description type="string"><![CDATA[Aliança de Tempestade Encontre a Força de Greve na Cidade, a Guerra está Prestes a Começar.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|11|15|19|21|22</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|10|11|15|19|21|22</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>16</id>
+		<name type="string">Ruínas Maias</name>
+		<description type="string"><![CDATA[Após anos de silêncio, o ex-templo maia próspero inflama raiva mais uma vez. Entre pedras antigas, cheia de assassinato, balas voando. Soldados respondendo chamadas de tesouro Eldorado , trabalhando na batalha interminável.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|21</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|10|21</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+	<child>
+		<id>17</id>
+		<name type="string">Playground</name>
+		<description type="string"><![CDATA[O playground que tinha agitação e alegria no passado, como a contaminação bioquímica, torna-se um parque de  morte . Pronto para ir a um carnaval preto emocionante!]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>18</id>
+		<name type="string">Base Nuclear</name>
+		<description type="string"><![CDATA[A fim de ganhar as armas nucleares de alta energia recém-desenvolvidos pela força de greve, aliança de tempestade pretende invadir a sua base secreta de armas nucleares, mal sabem que eles vos esperam com armazéns vazios e emboscada.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|8|9|12|13</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|8|9|12|13</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+<!-- 	<child>
+		<id>19</id>
+		<name type="string">关外要塞</name>
+		<description type="string"><![CDATA[远上白云间，孤城万仞山。双方的神枪手为争夺大漠中的古代要塞，展开了一场殊死搏斗。]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">4</type>
+		<subType type="string">42</subType>
+		<recomendType>4</recomendType>
+		<recomendSubType>42</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+ 	<child>
+		<id>20</id>
+		<name type="string">仓储中心</name>
+		<description type="string"><![CDATA[仓储中心是地区物流的心脏。当下储藏的大量易燃易爆的化学物资，预示着风暴联盟的破坏行动只是时间问题。]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|9|13</type>
+		<subType type="string">51|52|53|54|55|57</subType>
+		<recomendType>2|5|9|13</recomendType>
+		<recomendSubType>51|52|53|54|55|57</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+ 	<child>
+		<id>21</id>
+		<name type="string">异域突袭</name>
+		<description type="string"><![CDATA[雷霆战警的机动队对风暴联盟的异域据点展开突然袭击，攻守双方陷入激烈的拉锯战。]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|11</type>
+		<subType type="string">41|42|43|44|45</subType>
+		<recomendType>3|32|4|10|11</recomendType>
+		<recomendSubType>41|42|43|44|45</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+ 	<child>
+		<id>22</id>
+		<name type="string">失重山谷</name>
+		<description type="string"><![CDATA[山谷中突然重力异常，一切都变得轻盈，究竟是超自然的力量？还是不为人知的实验？]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child> -->
+	<child>
+		<id>23</id>
+		<name type="string">Laboratório</name>
+		<description type="string"><![CDATA[O laboratório estava fanzendo estudo aprofundado sobre vírus de zumbi quando aconteceu o vazamento de vírus de repente. Esta zona tornou-se em inferno.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>24</id>
+		<name type="string">Cidade de Deus</name>
+		<description type="string"><![CDATA[Há uma luta feroz nas favelas na perifeira urbana que é parecido com um labirinto, lute pela sobrevivência!]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|9|12|13</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|9|12|13</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>25</id>
+		<name type="string">Armazén Zero</name>
+		<description type="string"><![CDATA[Strike Force interceptou um cargueiro de Storm Aliance que usado para contrabar um gerador da ausência de gravidade, no confronto feroz, contrabandistas abriu um campo de batalha de gravidade.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|15|21</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|15|21</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+<!-- 	<child>
+		<id>26</id>
+		<name type="string">变异工地</name>
+		<description type="string"><![CDATA[阵营双方正激烈争夺武器化的变异病毒，意外的泄露让建筑工地成为杀戮的战场。 ]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child> -->
+	<child>
+		<id>27</id>
+		<name type="string">Cabanas da Fronteira</name>
+		<description type="string"><![CDATA[Nas cabanas localizadas em regiões de floresta está ocorrendo uma caçada sinistra e mortal, quem será a caça e quem será o caçador, somente a força irá responder.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|21</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|10|21</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+	<child>
+		<id>28</id>
+		<name type="string">Sala de Treinamento</name>
+		<description type="string"><![CDATA[A aeronáutica sofreu um ataque dos zumbis enlouquecidos, algumas pessoas milagrosamente sobreviveram e estão refugiados na sala de treinamento, prontos para o último teste de sobrevivência.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>29</id>
+		<name type="string">Base de Treino</name>
+		<description type="string"><![CDATA[Em uma espreitadela em segredo, Strike Force encontrou o base de treinamento secreto de atiradores na aliança de tempestade, o conflito explode de repente,Aqui é paraíso de atiradores,você só pode ]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">4</type>
+		<subType type="string">42</subType>
+		<recomendType>4</recomendType>
+		<recomendSubType>42</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+	<child>
+		<id>30</id>
+		<name type="string">Cidade ocidental deserta</name>
+		<description type="string"><![CDATA[Esta é uma terra selvagem remota,numerosos elementos perigosos escondindos aqui, prontos para ir]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|9|12|13</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|9|12|13</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+ 	<child>
+		<id>31</id>
+		<name type="string">Deserto da Morte</name>
+		<description type="string"><![CDATA[Um esquadrão humano foi condenada a investigar a incidente de vírus de Zumbi na vila no fundo do deserto,o que está esperando não é tão simples como morte.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>0</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>32</id>
+		<name type="string">Estação Espacial</name>
+		<description type="string"><![CDATA[Guerra gradualmente se espalha para o espaço, esta estação espacial deixada desde período de gurra frio  trona-se o foco de luta entre os dois lados.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|11|19|22</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|11|19|22</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+	<child>
+		<id>33</id>
+		<name type="string">Arsenal</name>
+		<description type="string"><![CDATA[A batalha feroz está correndo,os dois lados estão luntando por as terras.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|8|11|12|13|15|19|21|22</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|8|11|12|13|15|19|21|22</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>34</id>
+		<name type="string">Playground</name>
+		<description type="string"><![CDATA[O playground é o local que o Noel vive quando não é época de natal, mas agora virou palco de guerra! ]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+ 	<child>
+		<id>35</id>
+		<name type="string">Base da morte</name>
+		<description type="string"><![CDATA[O vazamento de radiação nuclear destruiu inúmeras vidas e criou um vírus mutante mais devastador]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>0</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>36</id>
+		<name type="string">Prisão</name>
+		<description type="string"><![CDATA[A prisão é terrível e sombria, como um pesadelo eterno, devorando toda a esperança.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|19|21</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|10|19|21</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+ 	<child>
+		<id>37</id>
+		<name type="string">Ruína da cidade antiga</name>
+		<description type="string"><![CDATA[Equipe de arqueólogos estavam escavaram a ruína da cidade antiga. Eles encontraram não só relíquias, mas também uma misteriosa maldição dos zumbis.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>0</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+  	<child>
+		<id>38</id>
+		<name type="string">Fábrica da morte</name>
+		<description type="string"><![CDATA[Esta fábrica arruinada ainda está em operação, radia a morte e cria zumbis constantemente.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>0</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>		
+		<id>39</id>	
+		<name type="string">Feira do ano novo</name>	
+		<description type="string"><![CDATA[A Feira animada e os arcos brilhantes simbolizam a virada de ano!]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|21</type>	
+		<subType type="string">41|42|43|44|45|46</subType>	
+		<recomendType>3|32|4|10|21</recomendType>	
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>	
+		<newMap>0</newMap>	
+		<promiseToFight>1</promiseToFight>	
+		<defaultPlayerNum>12</defaultPlayerNum>	
+	</child>		
+	<child>		
+		<id>40</id>	
+		<name type="string">Distrito Violento</name>	
+		<description type="string"><![CDATA[Caos e confusão no distrito. O medo e a escuridão andam juntas.]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">2|12|13|15|19|22</type>	
+		<subType type="string"></subType>	
+		<recomendType>2|12|13|15|19|22</recomendType>	
+		<recomendSubType></recomendSubType>	
+		<newMap>0</newMap>	
+		<promiseToFight>1</promiseToFight>	
+		<defaultPlayerNum>16</defaultPlayerNum>	
+	</child>		
+	<child>		
+		<id>41</id>	
+		<name type="string">Solar Houghton</name>	
+		<description type="string"><![CDATA[Esta área italiana situada no pé da montanha vai ser o palco da guerra!]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|9|12|13</type>	
+		<subType type="string">51|52|53|54|55|57|58</subType>	
+		<recomendType>2|5|9|12|13</recomendType>	
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>	
+		<newMap>0</newMap>	
+		<promiseToFight>1</promiseToFight>	
+		<defaultPlayerNum>16</defaultPlayerNum>	
+	</child>		
+	<child>		
+		<id>42</id>	
+		<name type="string">Torre Dupla</name>	
+		<description type="string"><![CDATA[O vazamento do vírus trouxe os zumbis e uma batalha insana.]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|17</type>	
+		<subType type="string"></subType>	
+		<recomendType>6|7|14|16|17</recomendType>	
+		<recomendSubType></recomendSubType>	
+		<newMap>0</newMap>	
+		<promiseToFight></promiseToFight>	
+		<defaultPlayerNum>16</defaultPlayerNum>	
+	</child>		
+	<child>		
+		<id>43</id>	
+		<name type="string">Torre Dupla</name>	
+		<description type="string"><![CDATA[O vazamento do vírus trouxe os zumbis e uma batalha insana.]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">15</type>	
+		<subType type="string"></subType>	
+		<recomendType>15</recomendType>	
+		<recomendSubType></recomendSubType>	
+		<newMap>0</newMap>	
+		<promiseToFight></promiseToFight>	
+		<defaultPlayerNum>12</defaultPlayerNum>	
+	</child>		
+	 <child>		
+		<id>44</id>	
+		<name type="string">Instituto Biológico</name>	
+		<description type="string"><![CDATA[Permeado na escuridão, o Instituto Biológico tem espíritos sanguinários. ]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">17</type>	
+		<subType type="string"></subType>	
+		<recomendType>17</recomendType>	
+		<recomendSubType></recomendSubType>	
+		<newMap>0</newMap>	
+		<promiseToFight></promiseToFight>	
+		<defaultPlayerNum>16</defaultPlayerNum>	
+	</child>	
+	<child>		
+		<id>45</id>	
+		<name type="string">Castelo de Sonho</name>	
+		<description type="string"><![CDATA[O Castelo dos sonhos e do impossível abriu as portas para a batalha]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|11|15|19|21|22</type>	
+		<subType type="string">41|42|43|44|45|46</subType>	
+		<recomendType>3|32|4|10|11|15|19|21|22</recomendType>	
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>	
+		<newMap>0</newMap>	
+		<promiseToFight>1</promiseToFight>	
+		<defaultPlayerNum>12</defaultPlayerNum>	
+	</child>		
+	<child>		
+		<id>46</id>	
+		<name type="string">Zona Proibida Zumbi</name>	
+		<description type="string"><![CDATA[O local é abandonado e desertíco sendo terrível na noite.]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">17</type>	
+		<subType type="string"></subType>	
+		<recomendType>17</recomendType>	
+		<recomendSubType></recomendSubType>	
+		<newMap>0</newMap>	
+		<promiseToFight></promiseToFight>	
+		<defaultPlayerNum>16</defaultPlayerNum>	
+	</child>		
+   <child>		
+		<id>47</id>	
+		<name type="string">Mapa do Tower Defense</name>	
+		<description type="string"><![CDATA[Mapa do Tower Defense]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">1001</type>	
+		<subType type="string"></subType>	
+		<recomendType>1001</recomendType>	
+		<recomendSubType></recomendSubType>	
+		<newMap>0</newMap>	
+		<promiseToFight></promiseToFight>	
+		<defaultPlayerNum>4</defaultPlayerNum>	
+	</child>	
+	<child>		
+		<id>48</id>	
+		<name type="string">Playground</name>	
+		<description type="string"><![CDATA[Antes era só agitação e alegria, com a contaminação bioquímica, tornou-se um parque de medo e tristeza]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">17</type>	
+		<subType type="string"></subType>	
+		<recomendType>17</recomendType>	
+		<recomendSubType></recomendSubType>	
+		<newMap>0</newMap>	
+		<promiseToFight></promiseToFight>	
+		<defaultPlayerNum>16</defaultPlayerNum>	
+	</child>	
+ 	<child>		
+		<id>49</id>	
+		<name type="string">Distrito 9</name>	
+		<description type="string"><![CDATA[O refúgio na fronteira é o paraíso dos criminosos]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">5|6|7|12|14|16</type>	
+		<subType type="string">51|52|53|54|55|57|58</subType>	
+		<recomendType>5|6|7|12|14|16</recomendType>	
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>	
+		<newMap>0</newMap>	
+		<promiseToFight>0</promiseToFight>	
+		<defaultPlayerNum>16</defaultPlayerNum>	
+	</child>		
+	<child>		
+		<id>50</id>	
+		<name type="string">Coliseu Romano</name>	
+		<description type="string"><![CDATA[O mundo das armas brancas. Use armas frias para conquistar a vitória final!]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">15</type>
+		<subType type="string"></subType>
+		<recomendType>15</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+	<!--<child>
+		<id>51</id>
+		<name type="string">中东战地</name>
+		<description type="string"><![CDATA[复杂多变的巷战、快节奏的战斗，在狭小的城市街道一触即发，临机应变是生存的有力保证。]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|9|12|13|23</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|9|12|13|23</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>-->
+  	<child>
+		<id>52</id>
+		<name type="string">Plataforma</name>
+		<description type="string"><![CDATA[Após a evacuação da plataforma por causa do vírus, a plataforma ficou isolado. Porém os perigos permanecem.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>0</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<!--<child>
+		<id>53</id>
+		<name type="string">山林小寨</name>
+		<description type="string"><![CDATA[走私者建造了这座设施齐全的小寨，俨然一块隐藏在密林中的避风港。]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|11|12|15|19|21|22</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|10|11|12|15|19|21|22</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>-->
+	<child>
+		<id>54</id>
+		<name type="string">Torre Sineira</name>
+		<description type="string"><![CDATA[A antiga Torre Sineira é um grande marco da arquitetura da região, explodí-lo causará grande pânico e será objetivo dos terrorista.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|9|12|13</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|9|12|13</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>55</id>
+		<name type="string">Cargueiro Sangrento</name>
+		<description type="string"><![CDATA[Um navio suspeito no Caribe está sendo monitorado, Strike Force embarcou forçosamente, lançaram uma repressão。]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|11|12|15|19|21|22</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|10|11|12|15|19|21|22</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>1</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+	<child>
+		<id>56</id>
+		<name type="string">Cidade Exílio</name>
+		<description type="string"><![CDATA[Storm Alliance explodiu a Cidade Exílio --- terra dos crentes exiliados]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|9|12|13</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|9|12|13</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>57</id>
+		<name type="string">Santuário</name>
+		<description type="string"><![CDATA[Santuário do antigo deus "Ares", espetáculo e grandioso]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|11|12|15|19|21|22</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|10|11|12|15|19|21|22</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+  	<child>
+		<id>58</id>
+		<name type="string">Plataforma Mortal</name>
+		<description type="string"><![CDATA[Um trem sequestrado com vírus está entrando na estação  bloqueiá-lo rapidamente e desmascarem todas os zumbis!]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>0</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>59</id>
+		<name type="string">Jardim</name>
+		<description type="string"><![CDATA[Parede branca, ponte macia, mas é difícil conter a tempestade sangrenta.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">3|32|4|10|11|12|15|19|21|22</type>
+		<subType type="string">41|42|43|44|45|46</subType>
+		<recomendType>3|32|4|10|11|12|15|19|21|22</recomendType>
+		<recomendSubType>41|42|43|44|45|46</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>12</defaultPlayerNum>
+	</child>
+	<child>
+		<id>60</id>
+		<name type="string">Vila Neve</name>
+		<description type="string"><![CDATA[Situado nas montanhas de neve, cercado por montanhas cobertas de neve e Grandes Lagos, super refrescante.]]></description>
+		<res type="string">地图缩略图</res>
+		<type type="string">2|5|9|12|13</type>
+		<subType type="string">51|52|53|54|55|57|58</subType>
+		<recomendType>2|5|9|12|13</recomendType>
+		<recomendSubType>51|52|53|54|55|57|58</recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight>1</promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>9003</id>
+		<name type="string">Zona Proibida</name>	
+		<description type="string"><![CDATA[O local é abandonado e desértico sendo terrível na noite.]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+	<child>
+		<id>9004</id>
+		<name type="string">Gravidade 0</name>	
+		<description type="string"><![CDATA[A gravidade foi alterada e tudo tornou-se leve. Foi o poder da natureza ou um experimento secreto?]]></description>	
+		<res type="string">地图缩略图</res>
+		<type type="string">6|7|14|16|20</type>
+		<subType type="string"></subType>
+		<recomendType>6|7|14|16|20</recomendType>
+		<recomendSubType></recomendSubType>
+		<newMap>0</newMap>
+		<promiseToFight></promiseToFight>
+		<defaultPlayerNum>16</defaultPlayerNum>
+	</child>
+</root>

@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mode 游戏模式，值域：游戏模式ID以及游戏子模式ID -->
+<!-- map 地图，id为地图id，index为排序值，整数但不要求连续，地图按index升序排序 -->
+<!-- mode的parent属性表示父模式的ID，约定大模式的父模式ID为0， ID为0的mode标签可保存通用默认排序-->
+<!-- 1竞技 2爆破 3团队 32娱乐团战 4特殊 5个人 6变异 7死神降临 8无限爆破 9 个人枪王 10团队枪王 11团队争霸 12死亡竞赛 13生死爆破 14终极变异 15刀锋战士 16超能变异 17幽灵变异 18塔防模式 19大头英雄 20变异觉醒 21团队爆头 22新团队争霸 1001丧尸围城 -->
+
+<root>
+	<mode id="2" parent="1">
+		<map id="40" index="1" />
+		<map id="33" index="2" />
+		<map id="60" index="3" />
+		<map id="56" index="4" />
+		<map id="54" index="5" />
+		<!--<map id="51" index="6" />-->
+		<map id="1" index="7" />
+		<map id="41" index="8" />
+		<map id="18" index="9" />
+		<map id="14" index="10" />
+		<map id="2" index="11" />
+		<map id="30" index="12" />
+		<map id="8" index="13" />
+		<map id="13" index="14" />
+		<map id="24" index="15" />
+	</mode>
+	<mode id="3" parent="1">
+		<map id="45" index="1" />
+		<map id="12" index="2" />
+		<map id="15" index="3" />
+		<map id="5" index="4" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="25" index="9" />
+		<map id="32" index="10" />
+		<map id="39" index="11" />
+		<map id="36" index="12" />
+		<map id="3" index="13" />
+		<map id="8" index="14" />
+		<map id="27" index="15" />
+		<map id="16" index="16" />
+	</mode>
+	<mode id="32" parent="1">
+		<map id="45" index="1" />
+		<map id="12" index="2" />
+		<map id="15" index="3" />
+		<map id="5" index="4" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="25" index="9" />
+		<map id="32" index="10" />
+		<map id="39" index="11" />
+		<map id="36" index="12" />
+		<map id="3" index="13" />
+		<map id="8" index="14" />
+		<map id="27" index="15" />
+		<map id="16" index="16" />
+	</mode>
+	<mode id="41" parent="4">
+		<map id="9" index="1" />
+		<map id="45" index="2" />
+		<map id="12" index="3" />
+		<map id="15" index="4" />
+		<map id="5" index="5" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="25" index="10" />
+		<map id="32" index="11" />
+		<map id="39" index="12" />
+		<map id="36" index="13" />
+		<map id="3" index="14" />
+		<map id="8" index="15" />
+		<map id="27" index="16" />
+		<map id="16" index="17" />
+	</mode>
+	<mode id="42" parent="4">
+		<map id="29" index="1" />
+		<map id="6" index="2" />
+		<map id="45" index="3" />
+		<map id="12" index="4" />
+		<map id="15" index="5" />
+		<map id="5" index="6" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="25" index="11" />
+		<map id="32" index="12" />
+		<map id="39" index="13" />
+		<map id="36" index="14" />
+		<map id="3" index="15" />
+		<map id="8" index="16" />
+		<map id="27" index="17" />
+		<map id="16" index="18" />
+	</mode>
+	<mode id="43" parent="4">
+		<map id="45" index="1" />
+		<map id="12" index="2" />
+		<map id="15" index="3" />
+		<map id="5" index="4" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="25" index="9" />
+		<map id="32" index="10" />
+		<map id="39" index="11" />
+		<map id="36" index="12" />
+		<map id="3" index="13" />
+		<map id="8" index="14" />
+		<map id="27" index="15" />
+		<map id="16" index="16" />
+	</mode>
+	<mode id="44" parent="4">
+		<map id="45" index="1" />
+		<map id="12" index="2" />
+		<map id="15" index="3" />
+		<map id="5" index="4" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="25" index="9" />
+		<map id="32" index="10" />
+		<map id="39" index="11" />
+		<map id="36" index="12" />
+		<map id="3" index="13" />
+		<map id="8" index="14" />
+		<map id="27" index="15" />
+		<map id="16" index="16" />
+	</mode>
+	<mode id="45" parent="4">
+		<map id="45" index="1" />
+		<map id="12" index="2" />
+		<map id="15" index="3" />
+		<map id="5" index="4" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="25" index="9" />
+		<map id="32" index="10" />
+		<map id="39" index="11" />
+		<map id="36" index="12" />
+		<map id="3" index="13" />
+		<map id="8" index="14" />
+		<map id="27" index="15" />
+		<map id="16" index="16" />
+	</mode>
+	<mode id="46" parent="4">
+		<map id="45" index="1" />
+		<map id="12" index="2" />
+		<map id="15" index="3" />
+		<map id="5" index="4" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="25" index="9" />
+		<map id="32" index="10" />
+		<map id="39" index="11" />
+		<map id="36" index="12" />
+		<map id="3" index="13" />
+		<map id="8" index="14" />
+		<map id="27" index="15" />
+		<map id="16" index="16" />
+	</mode>
+	<mode id="51" parent="5">
+		<map id="49" index="1" />
+		<map id="33" index="2" />
+		<map id="60" index="3" />
+		<map id="56" index="4" />
+		<map id="54" index="5" />
+		<!--<map id="51" index="6" />-->
+		<map id="1" index="7" />
+		<map id="41" index="8" />
+		<map id="18" index="9" />
+		<map id="14" index="10" />
+		<map id="2" index="11" />
+		<map id="30" index="12" />
+		<map id="8" index="13" />
+		<map id="13" index="14" />
+		<map id="24" index="15" />
+	</mode>
+	<mode id="52" parent="5">
+		<map id="49" index="1" />
+		<map id="33" index="2" />
+		<map id="60" index="3" />
+		<map id="56" index="4" />
+		<map id="54" index="5" />
+		<!--<map id="51" index="6" />-->
+		<map id="1" index="7" />
+		<map id="41" index="8" />
+		<map id="18" index="9" />
+		<map id="14" index="10" />
+		<map id="2" index="11" />
+		<map id="30" index="12" />
+		<map id="8" index="13" />
+		<map id="13" index="14" />
+		<map id="24" index="15" />
+	</mode>
+	<mode id="53" parent="5">
+		<map id="49" index="1" />
+		<map id="33" index="2" />
+		<map id="60" index="3" />
+		<map id="56" index="4" />
+		<map id="54" index="5" />
+		<!--<map id="51" index="6" />-->
+		<map id="1" index="7" />
+		<map id="41" index="8" />
+		<map id="18" index="9" />
+		<map id="14" index="10" />
+		<map id="2" index="11" />
+		<map id="30" index="12" />
+		<map id="8" index="13" />
+		<map id="13" index="14" />
+		<map id="24" index="15" />
+	</mode>
+	<mode id="54" parent="5">
+		<map id="49" index="1" />
+		<map id="33" index="2" />
+		<map id="60" index="3" />
+		<map id="56" index="4" />
+		<map id="54" index="5" />
+		<!--<map id="51" index="6" />-->
+		<map id="1" index="7" />
+		<map id="41" index="8" />
+		<map id="18" index="9" />
+		<map id="14" index="10" />
+		<map id="2" index="11" />
+		<map id="30" index="12" />
+		<map id="8" index="13" />
+		<map id="13" index="14" />
+		<map id="24" index="15" />
+	</mode>
+	<mode id="55" parent="5">
+		<map id="49" index="1" />
+		<map id="33" index="2" />
+		<map id="60" index="3" />
+		<map id="56" index="4" />
+		<map id="54" index="5" />
+		<!--<map id="51" index="6" />-->
+		<map id="1" index="7" />
+		<map id="41" index="8" />
+		<map id="18" index="9" />
+		<map id="14" index="10" />
+		<map id="2" index="11" />
+		<map id="30" index="12" />
+		<map id="8" index="13" />
+		<map id="13" index="14" />
+		<map id="24" index="15" />
+	</mode>
+	<mode id="57" parent="5">
+		<map id="49" index="1" />
+		<map id="33" index="2" />
+		<map id="60" index="3" />
+		<map id="56" index="4" />
+		<map id="54" index="5" />
+		<!--<map id="51" index="6" />-->
+		<map id="1" index="7" />
+		<map id="41" index="8" />
+		<map id="18" index="9" />
+		<map id="14" index="10" />
+		<map id="2" index="11" />
+		<map id="30" index="12" />
+		<map id="8" index="13" />
+		<map id="13" index="14" />
+		<map id="24" index="15" />
+	</mode>
+	<mode id="58" parent="5">
+		<map id="49" index="1" />
+		<map id="33" index="2" />
+		<map id="60" index="3" />
+		<map id="56" index="4" />
+		<map id="54" index="5" />
+		<!--<map id="51" index="6" />-->
+		<map id="1" index="7" />
+		<map id="41" index="8" />
+		<map id="18" index="9" />
+		<map id="14" index="10" />
+		<map id="2" index="11" />
+		<map id="30" index="12" />
+		<map id="8" index="13" />
+		<map id="13" index="14" />
+		<map id="24" index="15" />
+	</mode>
+	<mode id="6" parent="1">
+		<map id="49" index="1" />
+		<map id="34" index="2" />
+	    <map id="58" index="3" />
+		<map id="52" index="4" />
+		<map id="31" index="5" />
+		<map id="42" index="6" />
+		<map id="9003" index="7" />
+		<map id="9004" index="8" />
+		<map id="37" index="9" />
+		<map id="28" index="10" />
+		<map id="23" index="11" />
+		<map id="17" index="12" />
+		<map id="7" index="13" />
+		<map id="35" index="14" />
+		<map id="38" index="15" />
+	</mode>
+	<mode id="7" parent="1">
+		<map id="49" index="1" />
+		<map id="34" index="2" />
+		<map id="58" index="3" />
+		<map id="52" index="4" />
+		<map id="31" index="5" />
+		<map id="42" index="6" />
+		<map id="9003" index="7" />
+		<map id="9004" index="8" />
+		<map id="37" index="9" />
+		<map id="28" index="10" />
+		<map id="23" index="11" />
+		<map id="17" index="12" />
+		<map id="7" index="13" />
+		<map id="35" index="14" />
+		<map id="38" index="15" />
+	</mode>
+	<mode id="8" parent="1">
+		<map id="33" index="1" />
+		<map id="1" index="2" />
+		<map id="18" index="3" />
+		<map id="2" index="4" />
+	</mode>
+	<mode id="9" parent="1">
+		<map id="1" index="1" />
+		<map id="41" index="2" />
+		<map id="49" index="3" />
+		<map id="60" index="4" />
+		<map id="56" index="5" />
+		<map id="54" index="6" />
+		<!--<map id="51" index="7" />-->
+		<map id="18" index="8" />
+		<map id="14" index="9" />
+		<map id="2" index="10" />
+		<map id="30" index="11" />
+		<map id="8" index="12" />
+		<map id="13" index="13" />
+		<map id="24" index="14" />
+	</mode>
+	<mode id="10" parent="1">
+		<map id="45" index="1" />
+		<map id="12" index="2" />
+		<map id="15" index="3" />
+		<map id="5" index="4" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="39" index="9" />
+		<map id="36" index="10" />
+		<map id="3" index="11" />
+		<map id="27" index="12" />
+		<map id="16" index="13" />
+	</mode>
+	<mode id="11" parent="1">
+		<map id="45" index="1" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="15" index="6" />
+		<map id="5" index="7" />
+		<map id="32" index="8" />
+		<map id="33" index="9" />
+		<map id="40" index="10" />
+	</mode>
+	<mode id="12" parent="1">
+		<map id="49" index="1" />
+		<map id="40" index="2" />
+		<map id="33" index="3" />
+		<map id="60" index="4" />
+		<map id="56" index="5" />
+		<map id="59" index="6" />
+		<map id="57" index="7" />
+		<map id="55" index="8" />
+		<map id="54" index="9" />
+		<!--<map id="51" index="10" />-->
+		<map id="1" index="11" />
+		<map id="41" index="12" />
+		<map id="53" index="13" />
+		<map id="18" index="14" />
+		<map id="14" index="15" />
+		<map id="2" index="16" />
+		<map id="30" index="17" />
+		<map id="8" index="18" />
+		<map id="13" index="19" />
+		<map id="24" index="20" />
+	</mode>
+	<mode id="13" parent="1">
+		<map id="40" index="1" />
+		<map id="33" index="2" />
+		<map id="60" index="3" />
+		<map id="56" index="4" />
+		<map id="54" index="5" />
+		<!--<map id="51" index="6" />-->
+		<map id="1" index="7" />
+		<map id="41" index="8" />
+		<map id="18" index="9" />
+		<map id="14" index="10" />
+		<map id="2" index="11" />
+		<map id="30" index="12" />
+		<map id="8" index="13" />
+		<map id="13" index="14" />
+		<map id="24" index="15" />
+	</mode>
+	<mode id="14" parent="1">
+		<map id="49" index="1" />
+		<map id="34" index="2" />
+		<map id="58" index="3" />
+		<map id="52" index="4" />
+		<map id="31" index="5" />
+		<map id="42" index="6" />
+		<map id="9003" index="7" />
+		<map id="9004" index="8" />
+		<map id="37" index="9" />
+		<map id="28" index="10" />
+		<map id="23" index="11" />
+		<map id="17" index="12" />
+		<map id="7" index="13" />
+		<map id="35" index="14" />
+		<map id="38" index="15" />
+	</mode>
+	<mode id="15" parent="1">
+		<map id="45" index="1" />
+		<map id="40" index="2" />
+		<map id="33" index="3" />
+		<map id="43" index="4" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="50" index="9" />
+		<map id="15" index="10" />
+		<map id="25" index="11" />
+		<map id="8" index="12" />
+	</mode>
+	<mode id="16" parent="1">
+		<map id="49" index="1" />
+		<map id="34" index="2" />
+		<map id="58" index="3" />
+		<map id="52" index="4" />
+		<map id="31" index="5" />
+		<map id="42" index="6" />
+		<map id="9003" index="7" />
+		<map id="9004" index="8" />
+		<map id="37" index="9" />
+		<map id="28" index="10" />
+		<map id="23" index="11" />
+		<map id="17" index="12" />
+		<map id="7" index="13" />
+		<map id="35" index="14" />
+		<map id="38" index="15" />
+	</mode>
+	<mode id="17" parent="1">
+		<map id="48" index="1" />
+		<map id="42" index="2" />
+		<map id="46" index="3" />
+		<map id="44" index="4" />
+	</mode>
+	<mode id="19" parent="1">
+		<map id="40" index="1" />
+		<map id="33" index="2" />
+		<map id="45" index="3" />
+		<map id="49" index="4" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="36" index="9" />
+		<map id="32" index="10" />
+		<map id="15" index="11" />
+		<map id="8" index="12" />
+		<map id="1" index="13" />
+	</mode>
+	<mode id="20" parent="1">
+		<map id="49" index="1" />
+		<map id="34" index="2" />
+		<map id="58" index="3" />
+		<map id="52" index="4" />
+		<map id="31" index="5" />
+		<map id="42" index="6" />
+		<map id="9003" index="7" />
+		<map id="9004" index="8" />
+		<map id="37" index="9" />
+		<map id="28" index="10" />
+		<map id="23" index="11" />
+		<map id="17" index="12" />
+		<map id="7" index="13" />
+		<map id="35" index="14" />
+		<map id="38" index="15" />
+	</mode>
+ 	<mode id="21" parent="1">
+		<map id="45" index="1" />
+		<map id="12" index="2" />
+		<map id="15" index="3" />
+		<map id="5" index="4" />
+		<map id="59" index="5" />
+		<map id="57" index="6" />
+	    <map id="55" index="7" />
+		<!--<map id="53" index="8" />-->
+		<map id="25" index="9" />
+		<map id="32" index="10" />
+		<map id="39" index="11" />
+		<map id="36" index="12" />
+		<map id="3" index="13" />
+		<map id="8" index="14" />
+		<map id="27" index="15" />
+		<map id="16" index="16" />
+	</mode>
+	<mode id="22" parent="1">
+		<map id="15" index="1" />
+		<map id="40" index="2" />
+		<map id="33" index="3" />
+	    <map id="59" index="4" />
+	    <map id="55" index="5" />
+		<map id="32" index="6" />
+		<map id="45" index="7" />
+	    <map id="57" index="8" />
+    <!--<map id="53" index="9" />-->
+		<map id="5" index="10" />
+	</mode>
+ 	<mode id="23" parent="1">
+		<map id="2" index="1" />
+		<!--<map id="51" index="2" />-->
+		<map id="1" index="3" />
+		<map id="13" index="4" />
+	</mode>
+ 	<mode id="1001" parent="1">
+		<map id="47" index="1" />
+	</mode>
+</root>

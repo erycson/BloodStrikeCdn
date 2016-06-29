@@ -1,0 +1,31 @@
+<config>
+  <MovieClip definition="ChannelAssets.channel_list_bg" properties="{'x':0,'y':0,'width':655,'height':488}"/>
+  <UILabel name="t1" properties="{'x':11,'y':13,'width':110,'height':21,'fontLanID':'WORD_19','textAlign':'center','textColor':'0x819BB1','zLanID':'WORD_926'}"/>
+  <UILabel name="t2" properties="{'x':124,'y':13,'width':110,'height':21,'fontLanID':'WORD_19','textAlign':'center','textColor':'0x819BB1','zLanID':'WORD_927'}"/>
+  <UILabel name="t3" properties="{'x':235,'y':13,'width':78,'height':21,'fontLanID':'WORD_19','textAlign':'center','textColor':'0x819BB1','zLanID':'WORD_583'}"/>
+  <UILabel name="t4" properties="{'x':335,'y':12,'width':110,'height':21,'fontLanID':'WORD_19','textAlign':'center','textColor':'0x819BB1','zLanID':'WORD_926'}"/>
+  <UILabel name="t5" properties="{'x':448,'y':12,'width':110,'height':21,'fontLanID':'WORD_19','textAlign':'center','textColor':'0x819BB1','zLanID':'WORD_927'}"/>
+  <UILabel name="t6" properties="{'x':559,'y':12,'width':78,'height':21,'fontLanID':'WORD_19','textAlign':'center','textColor':'0x819BB1','zLanID':'WORD_583'}"/>
+  <MovieClip name="channelList" definition="fl.controls.TileList" properties="{'x':2,'y':35}"/>
+  <UIButton name="refreshBtn" properties="{'x':400,'y':495,'width':131,'height':30,'fontLanID':'WORD_20','fontSize':15,'skins':'ComponentAssets.btn_layer','textColor':'0xD8DFE8','zLanID':'WORD_303'}"/>
+  <UIButton name="enterBtn" properties="{'x':520,'y':495,'width':131,'height':30,'fontLanID':'WORD_20','fontSize':15,'skins':'ResourceAssets.btn3_layer','textColor':'0xFFE479','zLanID':'WORD_304'}"/>
+  <UIButton name="goToTestServerBtn" properties="{'x':230,'y':495,'width':164,'height':30,'font':'WORD_19','fontLanID':'WORD_19','skins':'ResourceAssets.go_to_test_server','textColor':'0xD8DFE8'}"/>
+  <UIButton name="backToServerBtn" properties="{'x':83,'y':495,'width':140,'height':30,'font':'WORD_19','fontLanID':'WORD_19','skins':'ResourceAssets.back_to_common_server','textColor':'0xD8DFE8'}"/>
+  <UIButton name="searchRoomBtn" properties="{'x':-0.5,'y':495,'width':150,'height':30,'fontLanID':'WORD_20','fontSize':15,'skins':'ResourceAssets.btn2_layer','textColor':'0xFFE479','zLanID':'WORD_2400'}"/>
+  <UIAsset name="goToTestServerBtnTip" properties="{'x':194.3,'y':366.6,'width':223,'height':123,'assetName':'ComponentAssets.go_to_test_server_tip'}"/>
+  <UIAsset name="backToServerBtnTip" properties="{'x':38.3,'y':366.6,'width':223,'height':123,'assetName':'ComponentAssets.back_to_common_server_tip'}"/>
+  <ChannelRenderer>
+    <MovieClip name="global_item_selected" definition="ChannelAssets.global_item_selected" properties="{'x':0,'y':-3,'width':320,'height':49}"/>
+    <MovieClip name="global_item_over" definition="ChannelAssets.global_item_over" properties="{'x':0,'y':-3,'width':320,'height':49}"/>
+    <MovieClip name="global_item_up" definition="ChannelAssets.global_item_up" properties="{'x':0,'y':-3,'width':320,'height':49}"/>
+    <Sprite name="overBg" definition="ChannelAssets.channel_list_item_over" properties="{'x':0,'y':0,'width':321,'height':44}"/>
+    <Sprite name="selectedBg" definition="ChannelAssets.channel_list_item_selected" properties="{'x':0,'y':0,'width':321,'height':44}"/>
+    <Sprite name="unAccessableBg" definition="ChannelAssets.channel_list_item_disabled" properties="{'x':0,'y':0,'width':321,'height':44}"/>
+    <UILabel name="channelName" properties="{'x':20,'y':13,'width':100,'height':21,'fontLanID':'WORD_19','textColor':'0xffffff'}"/>
+    <UILabel name="stateTF" properties="{'x':229,'y':13,'width':48,'height':21,'fontLanID':'WORD_19','textColor':'0xffffff'}"/>
+    <UIAsset name="barBg" properties="{'x':108,'y':15,'width':116,'height':13,'assetName':'ComponentAssets.exp_bar_layer'}"/>
+    <MovieClip name="bar" definition="ChannelAssets.progressbar" properties="{'x':110,'y':17,'width':112,'height':9}"/>
+    <Sprite name="friendIcon" definition="ChannelAssets.friendIcon" properties="{'x':253,'y':10,'width':24,'height':21}"/>
+    <UILabel name="friendNumText" properties="{'x':278,'y':12,'width':48,'height':21,'fontLanID':'WORD_19','textColor':'0xffffff'}"/>
+  </ChannelRenderer>
+</config>
